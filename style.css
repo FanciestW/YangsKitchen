@@ -1,11 +1,21 @@
-body{
-	background-color: #A5F2A5;
+html{
+	background: url("Pictures/asian2.jpg") center fixed;
+	background-size: cover;
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
 	min-width: 640px;
 	height: 100%;
 	min-height: 960;
+}
+
+body{
+	background-color: green;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+	width: 80%;
+	height: 100%;
 }
 
 div.title{
@@ -15,12 +25,17 @@ div.title{
 }
 
 p.title{
+	font-size: 32px;
+	font-family: cursive;
+	font-weight: bolder;
+	color: orange;
 	text-align: center;
 	border: 10px;
 	background-color: red;
 }
 
 #sidebar{
+	margin-left: auto;
 	margin-top: auto;
 	margin-bottom: auto;
 	width: 20%;
@@ -37,7 +52,8 @@ p.sidebar{
 	margin-bottom: 30px;
 	font-weight: bolder;
 	font-size: 24px;
-	font-family: ;
+	font-family: cursive;
+	padding: 10%;
 }
 
 a.sidebar{
@@ -46,5 +62,10 @@ a.sidebar{
 }
 a.sidebar:hover{
 	text-decoration: underline;
-	color: pink;
+	color: blue;
+}
+
+div.body{
+	background-color: blue;
+	background-size: 100%, 100%;
 }
