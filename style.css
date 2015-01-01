@@ -1,5 +1,5 @@
 html{
-	background: url("Pictures/asian2.jpg") center fixed;
+	background: url("Pictures/asian5.jpg") center no-repeat;
 	background-size: cover;
 	margin-left: auto;
 	margin-right: auto;
@@ -10,7 +10,6 @@ html{
 }
 
 body{
-	background-color: rgba(206, 206, 206, .6);
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 20px;
@@ -18,20 +17,13 @@ body{
 	height: 100%;
 }
 
-div.title{
-	margin-left: 25%;
-	width: 50%;
-	height: 5%;
-}
 
 p.title{
-	font-size: 32px;
-	font-family: cursive;
+	font-size: 45px;
+	font-family: Comic Sans MS, cursive, sans-serif;
 	font-weight: bolder;
-	color: orange;
+	color: black;
 	text-align: center;
-	border: 10px;
-	background-color: red;
 }
 
 #sidebar{
@@ -41,7 +33,7 @@ p.title{
 	width: 20%;
 	height: 100%;
 	float: left;
-	background-color: cyan;
+	background-color: rgba(172, 131, 89, .5);
 	text-align: center;
 	border-radius: 20px;
 
@@ -52,7 +44,7 @@ p.sidebar{
 	margin-bottom: 30px;
 	font-weight: bolder;
 	font-size: 24px;
-	font-family: cursive;
+	font-family: Comic Sans MS, cursive, sans-serif;
 	padding: 10%;
 }
 
