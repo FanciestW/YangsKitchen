@@ -26,33 +26,28 @@ p.title{
 	text-align: center;
 }
 
-#sidebar{
+table.navbar{
+	background-color: red;
 	margin-left: auto;
-	margin-top: auto;
-	margin-bottom: auto;
-	width: 20%;
-	height: 100%;
-	float: left;
-	background-color: rgba(172, 131, 89, .5);
-	text-align: center;
-	border-radius: 20px;
-
-}
-
-p.sidebar{
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	font-weight: bolder;
 	font-size: 24px;
 	font-family: Comic Sans MS, cursive, sans-serif;
-	padding: 10%;
+	padding: 2%;
 }
 
-a.sidebar{
-	text-decoration: none;
-	color: red;
+td.navbar{
+	padding-left: 20px;
+	padding-right: 20px;
 }
-a.sidebar:hover{
+
+a.navbar{
+	text-decoration: none;
+	color: black;
+}
+a.navbar:hover{
 	text-decoration: underline;
 	color: blue;
 }
