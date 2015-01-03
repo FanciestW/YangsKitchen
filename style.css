@@ -10,13 +10,13 @@ html{
 }
 
 body{
+	margin-top: 0;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 20px;
 	width: 100%;
 	height: 100%;
 }
-
 
 p.title{
 	font-size: 45px;
@@ -27,35 +27,42 @@ p.title{
 }
 
 div.logo{
-	position: relative;
-	top: 0px;
-	opacity: 1;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 0px; /*This deletes the space between the logo and the directory bar*/
 }
 
-table.navbar{
+img.logo{
+	opacity: 1;
+	position: relative;
+	padding: none;
+	height: 254px;
+}
+
+table.dir{
 	background: url("Pictures/navbackground.jpg");
 	margin-left: auto;
 	margin-right: auto;
-	width: 100%;
-	margin-top: none;
-	margin-bottom: none;
+	padding: none;
 	font-weight: bolder;
 	font-size: 24px;
 	font-family: Comic Sans MS, cursive, sans-serif;
 	position: fixed relative;
+	width: 80%;
+	text-align: center;
 }
 
-td.navbar{
-	padding-left: 20px;
-	padding-right: 20px;
+td.dir{
+	padding: 20px;
 }
 
-a.navbar{
+a.dir{
 	text-decoration: none;
 	color: rgba(200,200,200, 1);
 
 }
-a.navbar:hover{
+a.dir:hover{
 	text-decoration: underline;
 	color: black;
 }
