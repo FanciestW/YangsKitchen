@@ -27,7 +27,7 @@ p.title{
 }
 
 div.logo{
-	position: absolute;
+	position: relative;
 	top: 0px;
 	opacity: 1;
 }
