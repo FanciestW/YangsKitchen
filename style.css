@@ -34,6 +34,7 @@ div.logo{
 }
 
 img.logo{
+	box-shadow: -5px 2px 20px black;
 	opacity: 1;
 	position: relative;
 	padding: none;
@@ -48,9 +49,10 @@ table.dir{
 	font-weight: bolder;
 	font-size: 24px;
 	font-family: Comic Sans MS, cursive, sans-serif;
-	position: fixed relative;
+	position: center;
 	width: 80%;
 	text-align: center;
+	box-shadow: 0px -1px 10px black;
 }
 
 td.dir{
@@ -76,4 +78,5 @@ div.body{
 	margin-bottom: none;
 	background-color: rgba(255,255,255,.3);
 	position: center absolute;
+	box-shadow: 0px 1px 10px black;	
 }
