@@ -99,4 +99,10 @@ div.body{
 	background-color: rgba(255,255,255,.3);
 	position: center absolute;
 	box-shadow: 0px 1px 25px black;	
+	font-size: 0px;
+}
+
+#menu{
+	height: auto;
+	width: 25%;
 }
