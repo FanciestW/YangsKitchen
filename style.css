@@ -100,6 +100,11 @@ div.body{
 	position: center absolute;
 	box-shadow: 0px 1px 25px black;	
 	font-size: 0px;
+}
+
+div.menu{
+	height: 100%;
+	width: 100%;
 	overflow: scroll;
 }
 
