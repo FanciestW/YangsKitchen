@@ -1,12 +1,14 @@
+/*All page style*/
+
 html{
 	background: url("Pictures/background.jpg") center no-repeat fixed;
 	background-size: cover;
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
-	min-width: 640px;
+	min-width: 1024px;
 	height: 100%;
-	min-height: 960;
+	min-height: 768px;
 }
 
 body{
@@ -50,7 +52,7 @@ table.dir{
 	padding: none;
 	font-weight: bolder;
 	font-size: 24px;
-	font-family: Comic Sans MS, cursive, sans-serif;
+	font-family: sans-serif italic;
 	position: center;
 	width: 100%;
 	text-align: center;
@@ -111,4 +113,37 @@ div.menu{
 #menu{
 	height: auto;
 	width: 50%;
+}
+
+/*All page style ends*/
+
+/*index or main page style*/
+
+img.takeout{
+	float: right;
+	margin: 1%;
+	width: 50%;
+	height: auto;
+	border-color: #A32100;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 15px black;
+}
+
+div.information{
+	margin-left: 10%;
+	float: left;
+	text-align: center;
+	font-size: 100px;
+}
+
+p.header{
+	font-family: ;
+	font-size: 25%;
+}
+
+p.telephone{
+	margin: 0;
+	font-size: 25%;
 }
