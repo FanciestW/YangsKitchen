@@ -144,6 +144,13 @@ p.header{
 }
 
 p.telephone{
-	margin: 0;
+	font-size: 25%;
+}
+
+p.address{
+	font-size: 25%;
+}
+
+p.hours{
 	font-size: 25%;
 }
