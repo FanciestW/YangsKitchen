@@ -132,15 +132,16 @@ img.takeout{
 }
 
 div.information{
-	margin-left: 10%;
+	margin-left: 8%;
 	float: left;
 	text-align: center;
 	font-size: 100px;
 }
 
 p.header{
-	font-family: ;
-	font-size: 25%;
+	font-family: Brush Script MT, cursive;
+	font-size: 40%;
+	margin-bottom: 0;
 }
 
 p.telephone{
@@ -153,4 +154,8 @@ p.address{
 
 p.hours{
 	font-size: 25%;
+}
+
+#hr{
+	margin: 0;
 }
