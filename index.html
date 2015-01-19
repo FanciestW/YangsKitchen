@@ -12,12 +12,17 @@
 		<link rel = "apple-touch-icon" type = "image/x-icon" href = "Pictures/icon.ico">
 		<script src = "jquery.js"></script>
 		<script src = "script.js"></script>
+		<script src="https://apis.google.com/js/platform.js" async defer></script>
 	</head>
 
 	<body>
 
 		<div class = "logo">
 		<img class = "logo" src = "Pictures/homelogo.png">
+		</div>
+		
+		<div class = "google">
+			<div class="g-plusone" data-annotation="inline" data-width="300"></div>
 		</div>
 
 		<table class = "dir">
@@ -32,6 +37,7 @@
 		<div class = "body">
 			<!--This is the body of the page content-->
 			<img class = "takeout" src = "Pictures/takeout.png">
+
 			<div class = "information">
 				<p class  = "header">Chinese Food To Take Out</p>
 				<hr id = "hr">
@@ -68,7 +74,13 @@
 							infowindow.open(map,marker);});infowindow.open(map,marker);
 						}
 						google.maps.event.addDomListener(window, 'load', init_map);
+
 				</script>
+			</script>
+
 		</div>
 
+
 	</body>
+	
+</html>
