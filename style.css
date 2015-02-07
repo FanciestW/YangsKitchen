@@ -4,7 +4,6 @@
 	font-size: 30px;
 	font-family: comic-Sans;
 }
-
 /*All page style*/
 html{
 	background: url("Pictures/background.jpg") center no-repeat fixed;
@@ -215,6 +214,7 @@ div.lunch{
 }
 
 table.lunch1{
+	margin-left: 68px;
 	float: left;
 	table-layout: fixed;
 }
