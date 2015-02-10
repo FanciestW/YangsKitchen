@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang = "en">
+	<head>
+		<title>Yang's Kitchen, MA</title>
+		<meta charset = "UTF-8">
+		<meta name = "viewport" content = "width=device-width, initial-scale=1">
+		<meta name = "description" content = "Chinese Food Massachusetts">
+		<meta name = "keywords" content = "Chinese,Food,Restaurant,Rutland,Massachusetts"> 
+		<link rel = "stylesheet" type = "text/css" href = "style.css">
+		<link rel = "icon" type = "image/x-icon" href = "Pictures/icon.ico">
+		<link rel = "shortcut icon" type = "iamge/x-icon" href = "Pictures/icon.ico">
+		<link rel = "apple-touch-icon" type = "image/x-icon" href = "Pictures/icon.ico">
+		<script src = "jquery.js"></script>
+		<script src = "script.js"></script>
+		<script src="https://apis.google.com/js/platform.js" async defer></script>
+	</head>
+
+	<body>
+
+		<div class = "logo">
+		<img class = "logo" src = "Pictures/homelogo.png">
+		</div>
+		
+		<div class = "google">
+			<div class="g-plusone" data-annotation="inline" data-width="300"></div>
+		</div>
+
+		<table class = "dir">
+			<tr>
+				<td class = "dir"><a class = "dir" href = "index.html">Home</a></td>
+				<td class = "dir"><a class = "currentdir" href = "menu.html">Menu</a></td>
+				<td class = "dir"><a class = "dir" href = "lunch.html">Lunch Special</a></td>
+				<td class = "dir"><a class = "dir" href = "coupons.html">Coupons</a></td>
+			</tr>
+		</table>
+		
+		<div class = "body">
+			<!--This is the body of the page content-->
+
+			<table class = "menudir">
+				<tr>
+					<td class = "menudir">
+						<a class = "menudir" onclick = "appetizers()">Appetizers</a>
+					</td>
+				</tr>
+				<tr>
+					<td class = "menudir">
+						<a class = "menudir" onclick = "soup()">Soup</a>
+					</td>
+				</tr>
+				<tr>
+					<td class = "menudir">
+						<a class = "menudir" onclick = "rice()">Rice</a>
+					</td>
+				</tr>
+				<tr>
+					<td class = "menudir">
+						<a class = "menudir" onclick = "lomein()">Lo Mein</a>
+					</td>
+				</tr>
+				<tr>
+					<td class = "menudir">
+						<a class = "menudir" onclick = "chicken()">Chicken</a>
+					</td>
+				</tr>
+				<tr>
+					<td class = "menudir">Cantonese</td>
+				</tr>
+				<tr>
+					<td class = "menudir">Moo Shu Dishes</td>
+				</tr>
+				<tr>
+					<td class = "menudir">Rice Sticks</td>
+				</tr>
+				<tr>
+					<td class = "menudir">Sweet &amp Sour</td>
+				</tr>
+				<tr>
+					<td class = "menudir">Beef &amp Pork</td>
+				</tr>
+				<tr>
+					<td class = "menudir">Seafood Dishes</td>
+				</tr>
+				<tr>
+					<td class = "menudir">Vegetables</td>
+				</tr>
+				<tr>
+					<td class = "menudir">Diet Food</td>
+				</tr>
+				<tr>
+					<td class = "menudir">Chef's Specials</td>
+				</tr>	
+			</table>
+
+			<div id = "menu2">
+
+				<div id = "menutitle">
+					
+				</div>
+
+				<div id = "menubody">
+					
+				</div>
+
+			</div>
+		</div>
+
+		<script>
+			function appetizers(){
+				document.getElementById("menutitle").innerHTML = "Appetizers";
+				document.getElementById("menubody").innerHTML = 
+				"<table>\
+						<tr>\
+							<td>1.</td>\
+							<td>Vegetable Tempura</td>\
+							<td>$5.25</td>\
+						</tr>\
+						<tr>\
+							<td>2.</td>\
+							<td>Spring Rolls(2)</td>\
+							<td>$3.25</td>\
+						</tr>\
+						<tr>\
+							<td>3.</td>\
+							<td>Egg Rolls(2)</td>\
+							<td>$3.50</td>\
+						</tr>\
+						<tr>\
+							<td>4.</td>\
+							<td>Peking Ravioli</td>\
+							<td>$5.25</td>\
+						</tr>\
+						<tr>\
+							<td>5.</td>\
+							<td>Scallion Pancakes</td>\
+							<td>$5.25</td>\
+						</tr>\
+						<tr>\
+							<td>6.</td>\
+							<td>Chicken Fingers</td>\
+							<td>$6.75</td>\
+						</tr>\
+						<tr>\
+							<td>7.</td>\
+							<td>Chicken Wings</td>\
+							<td>$7.50</td>\
+						</tr>\
+						<tr>\
+							<td>8.</td>\
+							<td>Beef Teriyaki</td>\
+							<td>$6.95</td>\
+						</tr>\
+						<tr>\
+							<td>9.</td>\
+							<td>Chicken Teriyaki</td>\
+							<td>$6.50</td>\
+						</tr>\
+						<tr>\
+							<td>10.</td>\
+							<td>Boneless Spare Ribs</td>\
+							<td>$6.75</td>\
+						</tr>\
+						<tr>\
+							<td>11.</td>\
+							<td>Fried Jumbo Shrimp</td>\
+							<td>$6.95</td>\
+						</tr>\
+						<tr>\
+							<td>12.</td>\
+							<td>Crab Rangoon</td>\
+							<td>$6.25</td>\
+						</tr>\
+						<tr>\
+							<td>13.</td>\
+							<td>Barbecued Spare Ribs</td>\
+							<td>$6.75</td>\
+						</tr>\
+						<tr>\
+							<td>14.</td>\
+							<td>Fried Wontons(with Meat)</td>\
+							<td>$3.95</td>\
+						</tr>\
+						<tr>\
+							<td>15.</td>\
+							<td>Pu Pu Platter(for 2)</td>\
+							<td>$16.50</td>\
+						</tr>\
+						<tr>\
+							<td></td>\
+							<td>\
+								<p id = \"menudesc\">Egg roll, chicken finer, crab rangoon, chicken wing,<br> boneless spare ribs, beef teriyaki, fried shrimp</p>\
+							</td>\
+						</tr>\
+				</table>\
+				<div id = \"menutitle\">\
+				Appetizer Combos\
+				</div>\
+				<div class = \"centered\">\
+				<p id = \"menudesc\">(All Items Can Be Substituted)<br>(Any substitution to Beef Teriyaki is an extra $1.00)</p>\
+				</div>\
+				<table>\
+					<tr>\
+						<td>#1.</td>\
+						<td>Wing, Teriyaki Beef, Boneless Rib</td>\
+						<td>$8.95</td>\
+					</tr>\
+					<tr>\
+						<td>#2.</td>\
+						<td>Crab Rangoons, Chicken Finger,<br>Fried Shrimp</td>\
+						<td>$8.50</td>\
+					</tr>\
+					<tr>\
+						<td>#3.</td>\
+						<td>Chicken Finger, Wing, Crab Rangoon</td>\
+						<td>$8.50</td>\
+					</tr>\
+					<tr>\
+						<td>#4.</td>\
+						<td>Chicken Finger, Wing, Chicken Teriyaki</td>\
+						<td>$8.50</td>\
+					</tr>\
+				</table>";			
+			}
+			function soup(){
+				document.getElementById("menutitle").innerHTML = "Soup";
+				document.getElementById("menubody").innerHTML = 
+				"<table>\
+						<tr>\
+							<td></td>\
+							<td></td>\
+							<td></td>\
+							<td>Pt.</td>\
+							<td>Qt.</td>\
+						</tr>\
+						<tr>\
+							<td>16.</td>\
+							<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+							<td>Hot &amp Sour Soup</td>\
+							<td>$2.50</td>\
+							<td>$4.50</td>\
+						</tr>\
+						<tr>\
+							<td>17.</td>\
+							<td></td>\
+							<td>Wonton Soup</td>\
+							<td>$2.00</td>\
+							<td>$3.80</td>\
+						</tr>\
+						<tr>\
+							<td>18.</td>\
+							<td></td>\
+							<td>Egg Drop Soup</td>\
+							<td>$1.50</td>\
+							<td>$3.00</td>\
+						</tr>\
+						<tr>\
+							<td>19.</td>\
+							<td></td>\
+							<td>Vegetable Soup w/ Bean Curd</td>\
+							<td></td>\
+							<td>$4.25</td>\
+						</tr>\
+						<tr>\
+							<td>20.</td>\
+							<td></td>\
+							<td>Seafood Soup</td>\
+							<td></td>\
+							<td>$5.95</td>\
+						</tr>\
+						<tr>\
+							<td>21.</td>\
+							<td></td>\
+							<td>House Special Soup</td>\
+							<td></td>\
+							<td>$5.50</td>\
+						</tr>\
+				</table>";
+			}
+			function rice(){
+				document.getElementById("menutitle").innerHTML = "Rice";
+				document.getElementById("menubody").innerHTML = 
+				"<table>\
+					<tr>\
+						<td></td>\
+						<td></td>\
+						<td>Qt.</td>\
+					</tr>\
+					<tr>\
+						<td>22.</td>\
+						<td>Yang Chow Fried Rice</td>\
+						<td>$7.50</td>\
+					</tr>\
+					<tr>\
+						<td>23.</td>\
+						<td>House Special Fried Rice</td>\
+						<td>$7.50</td>\
+					</tr>\
+					<tr>\
+						<td>24.</td>\
+						<td>Fried Rice (Chicken or Pork)</td>\
+						<td>$6.75</td>\
+					</tr>\
+					<tr>\
+						<td>25.</td>\
+						<td>Shrimp or Beef Fried Rice</td>\
+						<td>$7.50</td>\
+					</tr>\
+					<tr>\
+						<td>26.</td>\
+						<td>Vegetable Fried Rice</td>\
+						<td>$6.50</td>\
+					</tr>\
+					<tr>\
+						<td>27.</td>\
+						<td>Boiled Rice</td>\
+						<td>$2.50</td>\
+					</tr>\
+				</table>";
+			}
+			function lomein(){
+				document.getElementById("menutitle").innerHTML = "Lo Mein";
+				document.getElementById("menubody").innerHTML =
+				"<table>\
+					<tr>\
+						<td></td>\
+						<td></td>\
+						<td>Qt.</td>\
+					</tr>\
+					<tr>\
+						<td>28.</td>\
+						<td>Chicken, Pork or Veg. Lo Mein</td>\
+						<td>$7.25</td>\
+					</tr>\
+					<tr>\
+						<td>29.</td>\
+						<td>House Special Lo Mein</td>\
+						<td>$7.95</td>\
+					</tr>\
+					<tr>\
+						<td>30.</td>\
+						<td>Shrimp or Beef Lo Mein</td>\
+						<td>$7.95</td>\
+					</tr>\
+					<tr>\
+						<td>30a.</td>\
+						<td>Plain Lo Mein</td>\
+						<td>$6.50</td>\
+					</tr>\
+					<tr>\
+						<td>31.</td>\
+						<td>Two Sides Yello Noodles w/ Seafood</td>\
+						<td>$10.25</td>\
+					</tr>\
+					<tr>\
+						<td>32.</td>\
+						<td>Shrimp, Beef, or Pork Pan Fried Noodle</td>\
+						<td>$9.95</td>\
+					</tr>\
+					<tr>\
+						<td>33.</td>\
+						<td>Gai Po Lo Mein</td>\
+						<td>$9.25</td>\
+					</tr>\
+					<tr>\
+						<td>34.</td>\
+						<td>Cold Summer Sesame Noodles</td>\
+						<td>$6.95</td>\
+					</tr>\
+				</table>";
+			}
+			function chicken(){
+				document.getElementById("menutitle").innerHTML = "Chicken";
+				document.getElementById("menubody").innerHTML = 
+				"<table>\
+					<tr>\
+						<td>35.</td>\
+						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td>Kung Pao Chicken</td>\
+						<td>$9.25</td>\
+					</tr>\
+					<tr>\
+						<td>36.</td>\
+						<td></td>\
+						<td>Chicken w/ Cashew Nuts</td>\
+						<td>$9.25</td>\
+					</tr>\
+					<tr>\
+						<td>37.</td>\
+						<td></td>\
+						<td>Chicken w/ Broccoli</td>\
+						<td>$9.25</td>\
+					</tr>\
+					<tr>\
+						<td>38.</td>\
+						<td></td>\
+						<td>Chicken w/ Pea Pods</td>\
+						<td>$9.25</td>\
+					</tr>\
+					<tr>\
+						<td>39.</td>\
+						<td></td>\
+						<td>Moo Goo Gai Pan</td>\
+						<td>$9.25</td>\
+					</tr>\
+					<tr>\
+						<td>40.</td>\
+						<td></td>\
+						<td>Eight Treasure Chicken</td>\
+						<td>$9.25</td>\
+					</tr>\
+					<tr>\
+						<td>41.</td>\
+						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td>Curry Chicken w/ Onion</td>\
+						<td>$9.25</td>\
+					</tr>\
+					<tr>\
+						<td>42.</td>\
+						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td>Chicken w/ Green Bean in Garlic Sauce</td>\
+						<td>$9.25</td>\
+					</tr>\
+					<tr>\
+						<td>43.</td>\
+						<td></td>\
+						<td>Chicken w/ Mixed Vegetables</td>\
+						<td>$9.25</td>\
+					</tr>\
+					<tr>\
+						<td>44.</td>\
+						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td>Chicken w/ Garlic Sauce</td>\
+						<td>$9.25</td>\
+					</tr>\
+					<tr>\
+						<td>45.</td>\
+						<td></td>\
+						<td>Chicken w/ Ginger &amp Scallions</td>\
+						<td>$9.25</td>\
+					</tr>\
+					<tr>\
+						<td>46.</td>\
+						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td>Hunan Chicken</td>\
+						<td>$9.25</td>\
+					</tr>\
+					<tr>\
+						<td>47.</td>\
+						<td></td>\
+						<td>Hon Sue Gai</td>\
+						<td>$9.25</td>\
+					</tr>\
+					<tr>\
+						<td>48.</td>\
+						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td>Stir Fried Chicken w/ Hot Sesame Sauce</td>\
+						<td>$9.25</td>\
+					</tr>\
+				</table>";
+			}
+		</script>
+
+	</body>
+</html>
