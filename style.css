@@ -117,6 +117,10 @@ div.google{
 	padding-bottom: 5px;
 }
 
+div.centered{
+	text-align: center;
+}
+
 /*All page style ends*/
 
 /*index or main page style*/
@@ -233,4 +237,44 @@ table.lunch3{
 	margin-left: auto;
 	margin-right: auto;
 	table-layout: fixed;
+}
+
+/*Style for new menu*/
+
+table.menudir{
+	background: url("Pictures/navbackground.jpg");
+	font-size: 23px;
+	color: yellow;
+	float: left;
+	margin-top: 50px;
+	margin-left: 50px;
+	border-radius: 10px;
+	box-shadow: 0px 1px 25px black;
+}
+td.menudir{
+	padding: 5px;
+}
+
+a.menudir:hover{
+	cursor: pointer;
+}
+
+#menu2{
+	float: right;
+	margin-right: 300px;
+	margin-top: 50px;
+}
+
+#menutitle{
+	font-size: 32px;
+	text-align: center;
+}
+
+#menubody{
+	font-size: 20px;
+}
+
+#menudesc{
+	font-size: 12px;
+	margin: 0px;
 }
