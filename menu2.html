@@ -64,7 +64,9 @@
 					</td>
 				</tr>
 				<tr>
-					<td class = "menudir">Cantonese</td>
+					<td class = "menudir">
+						<a class = "menudir" onclick = "cantonese()">Cantonese</a>
+					</td>
 				</tr>
 				<tr>
 					<td class = "menudir">Moo Shu Dishes</td>
@@ -456,6 +458,66 @@
 						<td>Stir Fried Chicken w/ Hot Sesame Sauce</td>\
 						<td>$9.25</td>\
 					</tr>\
+				</table>";
+			}
+			function cantonese(){
+				document.getElementById("menutitle").innerHTML = "Cantonese";
+				document.getElementById("menubody").innerHTML =
+				"<table>\
+				<tr>\
+					<td>49.</td>\
+					<td></td>\
+					<td>Chow Mein</td>\
+					<td>$7.50</td>\
+				</tr>\
+				<tr>\
+					<td></td>\
+					<td></td>\
+					<td><div id = \"menudesc\">(Chicken, Beef, Pork, Shrimp or Vegetable)</div></td>\
+					<td></td>\
+				</tr>\
+				<tr>\
+					<td>50.</td>\
+					<td></td>\
+					<td>House Special Chow Mein</td>\
+					<td>$8.25</td>\
+				</tr>\
+				<tr>\
+					<td>51.</td>\
+					<td></td>\
+					<td>Chop Suey</td>\
+					<td>$8.25</td>\
+				</tr>\
+				<tr>\
+					<td></td>\
+					<td></td>\
+					<td><div id = \"menudesc\">(Chicken, Beef, Pork, Shrimp or Vegetable)</div></td>\
+					<td></td>\
+				</tr>\
+				<tr>\
+					<td>52.</td>\
+					<td></td>\
+					<td>House Special Chop Suey</td>\
+					<td>$8.95</td>\
+				</tr>\
+				<tr>\
+					<td>53.</td>\
+					<td></td>\
+					<td>Egg Foo Young</td>\
+					<td>$7.25</td>\
+				</tr>\
+				<tr>\
+					<td></td>\
+					<td></td>\
+					<td><div id = \"menudesc\">(Chicken, Beef, Pork, Shrimp or Vegetable)</div></td>\
+					<td></td>\
+				</tr>\
+				<tr>\
+					<td>54.</td>\
+					<td></td>\
+					<td>Mushroom Egg Foo Young</td>\
+					<td>$6.50</td>\
+				</tr>\
 				</table>";
 			}
 		</script>

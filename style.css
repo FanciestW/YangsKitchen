@@ -277,4 +277,5 @@ a.menudir:hover{
 #menudesc{
 	font-size: 12px;
 	margin: 0px;
+	position: inline-block;
 }
