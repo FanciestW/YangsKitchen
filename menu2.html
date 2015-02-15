@@ -89,16 +89,24 @@
 					</td>
 				</tr>
 				<tr>
-					<td class = "menudir">Seafood Dishes</td>
+					<td class = "menudir">
+						<a class = "menudir" onclick = "seafood()">Seafood Dishes</a>
+					</td>
 				</tr>
 				<tr>
-					<td class = "menudir">Vegetables</td>
+					<td class = "menudir">
+						<a class = "menudir" onclick = "veggies()">Vegetables</a>
+					</td>
 				</tr>
 				<tr>
-					<td class = "menudir">Diet Food</td>
+					<td class = "menudir">
+						<a class = "menudir" onclick = "diet()">Diet Food</a>
+					</td>
 				</tr>
 				<tr>
-					<td class = "menudir">Chef's Specials</td>
+					<td class = "menudir">
+						<a class = "menudir" onclick = "chefs()">Chef's Specials</a>
+					</td>
 				</tr>	
 			</table>
 
@@ -699,6 +707,375 @@
 						<td></td>\
 						<td>Pork with Pea Pods</td>\
 						<td>$9.50</td>\
+					</tr>\
+				</table>";
+			}
+			function seafood(){
+				document.getElementById("menutitle").innerHTML = "Seafood Dishes";
+				document.getElementById("menubody").innerHTML =
+				"<table>\
+					<tr>\
+						<td>79.</td>\
+						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td>Kung Pao Shrimp</td>\
+						<td>$10.50</td>\
+					</tr>\
+					<tr>\
+						<td>80.</td>\
+						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td>Shrimp with Broccoli</td>\
+						<td>$10.50</td>\
+					</tr>\
+					<tr>\
+						<td>81.</td>\
+						<td></td>\
+						<td>Shrimp with Mixed Vegetables</td>\
+						<td>$10.50</td>\
+					</tr>\
+					<tr>\
+						<td>82.</td>\
+						<td></td>\
+						<td>Shrimp with Cashew Nuts</td>\
+						<td>$10.50</td>\
+					</tr>\
+					<tr>\
+						<td>83.</td>\
+						<td></td>\
+						<td>Shrimp with Lobster Sauce</td>\
+						<td>$10.50</td>\
+					</tr>\
+					<tr>\
+						<td>84.</td>\
+						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td>Shrimp with Garlic Sauce</td>\
+						<td>$10.50</td>\
+					</tr>\
+					<tr>\
+						<td>85.</td>\
+						<td></td>\
+						<td>Shrimp with Pea Pods</td>\
+						<td>$10.50</td>\
+					</tr>\
+					<tr>\
+						<td>86.</td>\
+						<td></td>\
+						<td>Shrimp with Black Bean Sauce</td>\
+						<td>$10.50</td>\
+					</tr>\
+					<tr>\
+						<td>87.</td>\
+						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td>Shrimp Szechuan Style</td>\
+						<td>$10.50</td>\
+					</tr>\
+					<tr>\
+						<td>88.3</td>\
+						<td></td>\
+						<td>Scallops with Mixed Vegetables</td>\
+						<td>$10.50</td>\
+					</tr>\
+					<tr>\
+						<td>89.</td>\
+						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td>Scallops Szechuan Style</td>\
+						<td>$10.50</td>\
+					</tr>\
+					<tr>\
+						<td>90.</td>\
+						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td>Scallops in Garlic Sauce</td>\
+						<td>$10.50</td>\
+					</tr>\
+				</table>";
+			}
+			function veggies(){
+				document.getElementById("menutitle").innerHTML = "Vegetables";
+				document.getElementById("menubody").innerHTML = 
+				"<table>\
+					<tr>\
+						<td>91.</td>\
+						<td></td>\
+						<td>Vegetable Delight</td>\
+						<td>$7.75</td>\
+					</tr>\
+					<tr>\
+						<td>92.</td>\
+						<td></td>\
+						<td>Pan Fried Green Beans</td>\
+						<td>$7.75</td>\
+					</tr>\
+					<tr>\
+						<td>93.</td>\
+						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td>Broccoli in Garlic Sauce</td>\
+						<td>$7.75</td>\
+					</tr>\
+					<tr>\
+						<td>94.</td>\
+						<td></td>\
+						<td>Sauteed Broccoli</td>\
+						<td>$7.75</td>\
+					</tr>\
+					<tr>\
+						<td>95.</td>\
+						<td></td>\
+						<td>Sauteed Waterchestnuts, Pea Pods,</td>\
+						<td>$7.75</td>\
+					</tr>\
+					<tr>\
+						<td></td>\
+						<td></td>\
+						<td>Bamboo Shoots</td>\
+						<td></td>\
+					</tr>\
+					<tr>\
+						<td>96.</td>\
+						<td></td>\
+						<td>Home Style Tofu</td>\
+						<td>$7.75</td>\
+					</tr>\
+					<tr>\
+						<td>97.</td>\
+						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td>Ma Po Tofu</td>\
+						<td>$7.75</td>\
+					</tr>\
+					<tr>\
+						<td>98.</td>\
+						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td>Kung Pao Tofu with Peanut</td>\
+						<td>$7.75</td>\
+					</tr>\
+				</table>";
+			}
+			function diet(){
+				document.getElementById("menutitle").innerHTML = "Diet Food";
+				document.getElementById("menubody").innerHTML =
+				"<div class = \"centered\">\
+				<p id = \"menudesc\">(with Ginger or Brown Sauce)</p>\
+				</div>\
+				<table>\
+					<tr>\
+						<td>D1.</td>\
+						<td></td>\
+						<td>Steam Broccoli</td>\
+						<td>$7.75</td>\
+					</tr>\
+					<tr>\
+						<td>D2.</td>\
+						<td></td>\
+						<td>Steam Mix Vegetables</td>\
+						<td>$7.75</td>\
+					</tr>\
+					<tr>\
+						<td>D3.</td>\
+						<td></td>\
+						<td>Steam Chicken w/ Broccoli</td>\
+						<td>$9.25</td>\
+					</tr>\
+					<tr>\
+						<td>D4.</td>\
+						<td></td>\
+						<td>Steam Chicken w/ Snow Pea</td>\
+						<td>$9.25</td>\
+					</tr>\
+					<tr>\
+						<td>D5.</td>\
+						<td></td>\
+						<td>Steam Chicken w/ Mix Veg.</td>\
+						<td>$9.25</td>\
+					</tr>\
+					<tr>\
+						<td>D6.</td>\
+						<td></td>\
+						<td>Steam Shrimp w/ Broccoli</td>\
+						<td>$10.25</td>\
+					</tr>\
+					<tr>\
+						<td>D7.</td>\
+						<td></td>\
+						<td>Steam Shrimp w/ Snow Pea</td>\
+						<td>$10.25</td>\
+					</tr>\
+					<tr>\
+						<td>D8.</td>\
+						<td></td>\
+						<td>Steam Shrimp w/ Mix Veg.</td>\
+						<td>$10.50</td>\
+					</tr>\
+				</table>";
+			}
+			function chefs(){
+				document.getElementById("menutitle").innerHTML = "Chef's Specials";
+				document.getElementById("menubody").innerHTML = 
+				"<table>\
+					<tr>\
+						<td>C1.</td>\
+						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td>General Tso's Chicken</td>\
+						<td>$10.50</td>\
+					</tr>\
+					<tr>\
+						<td></td>\
+						<td></td>\
+						<td><p id = \"menudesc\">Chunks of chicken deep fried to crispy dipped into sweet &<br>sour sauce. Then served with broccoli</p></td>\
+						<td></td>\
+					</tr>\
+					<tr>\
+						<td>C2.</td>\
+						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td>Orange Flavored Crispy Chicken</td>\
+						<td>$10.50</td>\
+					</tr>\
+					<tr>\
+						<td></td>\
+						<td></td>\
+						<td><p id = \"menudesc\">Fried crispy chicken with orange peel in spicy special sauce</p></td>\
+						<td></td>\
+					</tr>\
+					<tr>\
+						<td>C3.</td>\
+						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td>Orange Flavored Crispy Beef</td>\
+						<td>$11.95</td>\
+					</tr>\
+					<tr>\
+						<td></td>\
+						<td></td>\
+						<td><p id = \"menudesc\">Fried crispy beef with orange peel in spicy special sauce</p></td>\
+						<td></td>\
+					</tr>\
+					<tr>\
+						<td>C4.</td>\
+						<td></td>\
+						<td>Sesame Chicken</td>\
+						<td>$10.50</td>\
+					</tr>\
+					<tr>\
+						<td></td>\
+						<td></td>\
+						<td><p id = \"menudesc\">Chunks of chicken deep fried to crsipy, dipped in sweet sauce.<br>Then sprinkled with sesame seeds and served with broccoli</td>\
+						<td></td>\
+					</tr>\
+					<tr>\
+						<td>C5.</td>\
+						<td></td>\
+						<td>Sesame Beef</td>\
+						<td>$11.95</td>\
+					</tr>\
+					<tr>\
+						<td></td>\
+						<td></td>\
+						<td><p id = \"menudesc\">Chunks of beef deep fried to crispy, dipped in sweet sauce.<br>Then sprinkled with sesame seeds and served with broccoli</td>\
+						<td></td>\
+					</tr>\
+					<tr>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
+					</tr>\
+					<tr>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
+					</tr>\
+					<tr>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
+					</tr>\
+					<tr>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
+					</tr>\
+					<tr>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
+					</tr>\
+					<tr>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
+					</tr>\
+					<tr>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
+					</tr>\
+					<tr>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
+					</tr>\
+					<tr>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
+					</tr>\
+					<tr>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
+					</tr>\
+					<tr>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
+					</tr>\
+					<tr>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
+					</tr>\
+					<tr>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
+					</tr>\
+					<tr>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
+					</tr>\
+					<tr>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
+					</tr>\
+					<tr>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
+					</tr>\
+					<tr>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
+					</tr>\
+					<tr>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
+						<td></td>\
 					</tr>\
 				</table>";
 			}
