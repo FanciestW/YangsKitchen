@@ -69,16 +69,24 @@
 					</td>
 				</tr>
 				<tr>
-					<td class = "menudir">Moo Shu Dishes</td>
+					<td class = "menudir">
+						<a class = "menudir" onclick = "mooshu()">Moo Shu Dishes</a>
+					</td>
 				</tr>
 				<tr>
-					<td class = "menudir">Rice Sticks</td>
+					<td class = "menudir">
+						<a class = "menudir" onclick = "ricesticks()">Rice Sticks</a>
+					</td>
 				</tr>
 				<tr>
-					<td class = "menudir">Sweet &amp Sour</td>
+					<td class = "menudir">
+						<a class = "menudir" onclick = "sweetsour()">Sweet &amp Sour</a>
+					</td>
 				</tr>
 				<tr>
-					<td class = "menudir">Beef &amp Pork</td>
+					<td class = "menudir">
+						<a class = "menudir" onclick = "beefpork()">Beef &amp Pork</a>
+					</td>
 				</tr>
 				<tr>
 					<td class = "menudir">Seafood Dishes</td>
@@ -518,6 +526,180 @@
 					<td>Mushroom Egg Foo Young</td>\
 					<td>$6.50</td>\
 				</tr>\
+				</table>";
+			}
+			function mooshu(){
+				document.getElementById("menutitle").innerHTML = "Moo Shu Dishes";
+				document.getElementById("menubody").innerHTML = 
+				"<table>\
+					<tr>\
+						<td>55.</td>\
+						<td></td>\
+						<td>Moo Shu Chicken or Pork</td>\
+						<td>$8.25</td>\
+					</tr>\
+					<tr>\
+						<td>56.</td>\
+						<td></td>\
+						<td>Moo Shu Shrimp or Beef</td>\
+						<td>$8.50</td>\
+					</tr>\
+					<tr>\
+						<td>57.</td>\
+						<td></td>\
+						<td>Moo Shu with Vegetables</td>\
+						<td>$7.50</td>\
+					</tr>\
+				</table>";
+			}
+			function ricesticks(){
+				document.getElementById("menutitle").innerHTML = "Rice Sticks";
+				document.getElementById("menubody").innerHTML = 
+				"<table>\
+					<tr>\
+						<td>58.</td>\
+						<td></td>\
+						<td>Curry Noodles Singapore Style</td>\
+						<td>$8.75</td>\
+					</tr>\
+					<tr>\
+						<td>59.</td>\
+						<td></td>\
+						<td>Rice Sticks with</td>\
+						<td>$8.25</td>\
+					</tr>\
+					<tr>\
+						<td></td>\
+						<td></td>\
+						<td><div id = \"menudesc\">(Shrimp, Pork, Beef, Vegetable)</div></td>\
+						<td></td>\
+					</tr>\
+				</table>";
+			}
+			function sweetsour(){
+				document.getElementById("menutitle").innerHTML = "Sweet &amp Sour";
+				document.getElementById("menubody").innerHTML =
+				"<table>\
+					<tr>\
+						<td>60.</td>\
+						<td></td>\
+						<td>Sweet &amp Sour Chicken</td>\
+						<td>$8.75</td>\
+					</tr>\
+					<tr>\
+						<td>61.</td>\
+						<td></td>\
+						<td>Sweet &amp Sour Pork</td>\
+						<td>$8.75</td>\
+					</tr>\
+					<tr>\
+						<td>62.</td>\
+						<td></td>\
+						<td>Sweet &amp Sour Shrimp</td>\
+						<td>$9.50</td>\
+					</tr>\
+				</table>";
+			}
+			function beefpork(){
+				document.getElementById("menutitle").innerHTML = "Beef &amp Pork";
+				document.getElementById("menubody").innerHTML = 
+				"<table>\
+					<tr>\
+						<td>63.</td>\
+						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td>Hunan Beef</td>\
+						<td>$10.50</td>\
+					</tr>\
+					<tr>\
+						<td>64.</td>\
+						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td>Kung Pao Beef</td>\
+						<td>$10.50</td>\
+					</tr>\
+					<tr>\
+						<td>65.</td>\
+						<td></td>\
+						<td>Beef with Broccoli</td>\
+						<td>$10.50</td>\
+					</tr>\
+					<tr>\
+						<td>66.</td>\
+						<td></td>\
+						<td>Beef with Seasonal Vegetables</td>\
+						<td>$10.50</td>\
+					</tr>\
+					<tr>\
+						<td>67.</td>\
+						<td></td>\
+						<td>Pepper Steak with Onion</td>\
+						<td>$10.50</td>\
+					</tr>\
+					<tr>\
+						<td>68.</td>\
+						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td>Beef with Garlic Sauce</td>\
+						<td>$10.50</td>\
+					</tr>\
+					<tr>\
+						<td>69.</td>\
+						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td>Shredded Spicy Beef</td>\
+						<td>$10.50</td>\
+					</tr>\
+					<tr>\
+						<td>70.</td>\
+						<td></td>\
+						<td>Beef with Green Bean</td>\
+						<td>$10.50</td>\
+					</tr>\
+					<tr>\
+						<td>71.</td>\
+						<td></td>\
+						<td>Beef with Pea Pods</td>\
+						<td>$10.50</td>\
+					</tr>\
+					<tr>\
+						<td>72.</td>\
+						<td></td>\
+						<td>Beef with Scallions</td>\
+						<td>$10.50</td>\
+					</tr>\
+					<tr>\
+						<td>73.</td>\
+						<td></td>\
+						<td>Mongolian Beef</td>\
+						<td>$10.50</td>\
+					</tr>\
+					<tr>\
+						<td>74.</td>\
+						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td>Kung Pao Pork</td>\
+						<td>$9.50</td>\
+					</tr>\
+					<tr>\
+						<td>75.</td>\
+						<td></td>\
+						<td>Pork with Broccoli</td>\
+						<td>$9.50</td>\
+					</tr>\
+					<tr>\
+						<td>76.</td>\
+						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td>Twice Cooked Pork</td>\
+						<td>$9.50</td>\
+					</tr>\
+					<tr>\
+						<td>77.</td>\
+						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td>Pork with Garlic Sauce</td>\
+						<td>$9.50</td>\
+					</tr>\
+					<tr>\
+						<td>78.</td>\
+						<td></td>\
+						<td>Pork with Pea Pods</td>\
+						<td>$9.50</td>\
+					</tr>\
 				</table>";
 			}
 		</script>

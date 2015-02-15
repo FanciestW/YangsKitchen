@@ -247,7 +247,7 @@ table.menudir{
 	color: yellow;
 	float: left;
 	margin-top: 50px;
-	margin-left: 50px;
+	margin-left: 100px;
 	border-radius: 10px;
 	box-shadow: 0px 1px 25px black;
 }
@@ -260,8 +260,8 @@ a.menudir:hover{
 }
 
 #menu2{
-	float: right;
-	margin-right: 300px;
+	float: left;
+	margin-left: 180px;
 	margin-top: 50px;
 }
 
@@ -277,5 +277,4 @@ a.menudir:hover{
 #menudesc{
 	font-size: 12px;
 	margin: 0px;
-	position: inline-block;
 }
