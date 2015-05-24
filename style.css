@@ -1,9 +1,42 @@
 /*Work in Progress style*/
 #working{
+	position: absolute;
+	margin-left: 160px;
 	text-align: center;
 	font-size: 30px;
 	font-family: comic-Sans;
 }
+
+button.hidden{
+	background: transparent;
+	border: none;
+	font-size: 8px;
+	color: red;
+}
+
+#btn1{
+	position: absolute;
+	margin-left: 265px;
+	margin-top: 73px;
+	padding-bottom: 10px;
+}
+
+#btn2{
+	position: absolute;
+	margin-left: 360px;
+	margin-top: 73px;
+	padding-bottom: 10px;
+}
+
+#btn3{
+	position: absolute;
+	margin-left: 495px;
+	margin-top: 73px;
+	padding-bottom: 10px;
+}
+
+
+
 /*All page style*/
 html{
 	background: url("Pictures/background.jpg") center no-repeat fixed;
