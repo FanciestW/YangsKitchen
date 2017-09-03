@@ -258,6 +258,11 @@ td.menudir{
 	padding: 5px;
 }
 
+a.menudir{	
+	text-decoration: none;
+	color: yellow;
+}
+
 a.menudir:hover{
 	cursor: pointer;
 }
