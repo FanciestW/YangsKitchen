@@ -30,6 +30,11 @@ body{
 	height: 100%;
 }
 
+a {
+	text-decoration: none;
+	color: black;
+}
+
 p.title{
 	font-size: 45px;
 	font-family: Comic Sans MS, cursive, sans-serif;
