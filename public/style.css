@@ -43,6 +43,17 @@ p.title{
 	text-align: center;
 }
 
+div.banner {
+	background-color: #FFFFFF6A;
+	width: 100%;
+	font-size: 1.25rem;
+}
+
+div.banner > p {
+	padding: 20px 50px;
+	margin: 0;
+}
+
 div.logo{
 	text-align: center;
 	margin-left: auto;
@@ -96,17 +107,21 @@ a.dir:hover{
 a.currentdir{
 	color: yellow;
 	text-decoration: none;
-	box-shadow: 0px 0px 0px 5px;
+	padding: 2px 5px;
+	border-top: 3px solid yellow;
+	border-bottom: 3px solid yellow;
 }
 
 a.currentdir:hover{
 	cursor: pointer;
 	color: cyan;
 	text-decoration: none;
-	box-shadow: 0px 0px 0px 5px;
+	border-top: 3px solid cyan;
+	border-bottom: 3px solid cyan;
 }
 
 div.body{
+	padding: 0px 0px 20px 0px;
 	height: 100%;
 	width: 80%;
 	z-index: 1;
@@ -117,12 +132,6 @@ div.body{
 	position: center absolute;
 	box-shadow: 0px 1px 25px black;	
 	font-size: 0px;
-}
-div.google{
-	text-align: center;
-	margin-top: -25px;
-	margin-left: 250px;
-	padding-bottom: 5px;
 }
 
 div.centered{
