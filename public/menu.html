@@ -1,135 +1,131 @@
-<!doctype html>
-<html lang = "en">
-	<head>
-		<title>Yang's Kitchen, MA</title>
-		<meta charset = "UTF-8">
-		<meta name = "viewport" content = "width=device-width, initial-scale=1">
-		<meta name = "description" content = "Chinese Food Massachusetts">
-		<meta name = "keywords" content = "Chinese,Food,Restaurant,Rutland,Massachusetts"> 
-		<link rel = "stylesheet" type = "text/css" href = "style.css">
-		<link rel = "icon" type = "image/x-icon" href = "Pictures/icon.ico">
-		<link rel = "shortcut icon" type = "iamge/x-icon" href = "Pictures/icon.ico">
-		<link rel = "apple-touch-icon" type = "image/x-icon" href = "Pictures/icon.ico">
-		<script type = "text/javascript" src = "jquery.js"></script>
-		<script type = "text/javascript" src = "script.js"></script>
-		<script src="https://apis.google.com/js/platform.js" async defer></script>
-	</head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Yang's Kitchen, MA</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Chinese Food Massachusetts" />
+    <meta name="keywords" content="Chinese,Food,Restaurant,Rutland,Massachusetts" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="Pictures/icon.ico" />
+    <link rel="shortcut icon" type="iamge/x-icon" href="Pictures/icon.ico" />
+    <link rel="apple-touch-icon" type="image/x-icon" href="Pictures/icon.ico" />
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+  </head>
 
-	<body>
-		<script src="https://use.fontawesome.com/312e8b45cb.js"></script>
+  <body>
+    <script src="https://use.fontawesome.com/312e8b45cb.js"></script>
 
-		<div class = "logo">
-		<img class = "logo" src = "Pictures/homelogo.png">
-		</div>
+    <div class="logo">
+      <img class="logo" src="Pictures/homelogo.png" />
+    </div>
 
-		<table class = "dir">
-			<tr>
-				<td class = "dir"><a class = "dir" href = "index.html">Home</a></td>
-				<td class = "dir"><a class = "currentdir" href = "#">Menu</a></td>
-				<td class = "dir"><a class = "dir" href = "lunch.html">Lunch Special</a></td>
-				<!-- <td class = "dir"><a class = "dir" href = "coupons.html">Coupons</a></td> -->
-			</tr>
-		</table>
-		
-		<div class = "body">
-			<!--This is the body of the page content-->
+    <table class="dir">
+      <tr>
+        <td class="dir"><a class="dir" href="index.html">Home</a></td>
+        <td class="dir"><a class="currentdir" href="#">Menu</a></td>
+        <td class="dir"><a class="dir" href="lunch.html">Lunch Special</a></td>
+        <!-- <td class = "dir"><a class = "dir" href = "coupons.html">Coupons</a></td> -->
+      </tr>
+    </table>
 
-			<table class = "menudir">
-				<tr>
-					<td style="text-align: center; font-size: 32px;">
-						<a class = "menudir" href="./Menu/YangsKitchenMenu.pdf" download="YangsKitchenMenu"><i class="fa fa-download" aria-hidden="true"></i> Menu</a>
-					</td>
-				</tr>
-				<tr>
-					<td class = "menudir">
-						<a class = "menudir" onclick = "appetizers()">Appetizers</a>
-					</td>
-				</tr>
-				<tr>
-					<td class = "menudir">
-						<a class = "menudir" onclick = "soup()">Soup</a>
-					</td>
-				</tr>
-				<tr>
-					<td class = "menudir">
-						<a class = "menudir" onclick = "rice()">Rice</a>
-					</td>
-				</tr>
-				<tr>
-					<td class = "menudir">
-						<a class = "menudir" onclick = "lomein()">Lo Mein</a>
-					</td>
-				</tr>
-				<tr>
-					<td class = "menudir">
-						<a class = "menudir" onclick = "chicken()">Chicken</a>
-					</td>
-				</tr>
-				<tr>
-					<td class = "menudir">
-						<a class = "menudir" onclick = "cantonese()">Cantonese</a>
-					</td>
-				</tr>
-				<tr>
-					<td class = "menudir">
-						<a class = "menudir" onclick = "mooshu()">Moo Shu Dishes</a>
-					</td>
-				</tr>
-				<tr>
-					<td class = "menudir">
-						<a class = "menudir" onclick = "ricesticks()">Rice Sticks</a>
-					</td>
-				</tr>
-				<tr>
-					<td class = "menudir">
-						<a class = "menudir" onclick = "sweetsour()">Sweet &amp Sour</a>
-					</td>
-				</tr>
-				<tr>
-					<td class = "menudir">
-						<a class = "menudir" onclick = "beefpork()">Beef &amp Pork</a>
-					</td>
-				</tr>
-				<tr>
-					<td class = "menudir">
-						<a class = "menudir" onclick = "seafood()">Seafood Dishes</a>
-					</td>
-				</tr>
-				<tr>
-					<td class = "menudir">
-						<a class = "menudir" onclick = "veggies()">Vegetables</a>
-					</td>
-				</tr>
-				<tr>
-					<td class = "menudir">
-						<a class = "menudir" onclick = "diet()">Diet Food</a>
-					</td>
-				</tr>
-				<tr>
-					<td class = "menudir">
-						<a class = "menudir" onclick = "chefs()">Chef's Specials</a>
-					</td>
-				</tr>	
-			</table>
+    <div class="body">
+      <!--This is the body of the page content-->
 
-			<div id = "menu2">
+      <table class="menudir">
+        <tr>
+          <td style="text-align: center; font-size: 32px;">
+            <a class="menudir" href="./Menu/YangsKitchenMenu.pdf" download="YangsKitchenMenu"
+              ><i class="fa fa-download" aria-hidden="true"></i> Menu</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td class="menudir">
+            <a class="menudir" onclick="appetizers()">Appetizers</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="menudir">
+            <a class="menudir" onclick="soup()">Soup</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="menudir">
+            <a class="menudir" onclick="rice()">Rice</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="menudir">
+            <a class="menudir" onclick="lomein()">Lo Mein</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="menudir">
+            <a class="menudir" onclick="chicken()">Chicken</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="menudir">
+            <a class="menudir" onclick="cantonese()">Cantonese</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="menudir">
+            <a class="menudir" onclick="mooshu()">Moo Shu Dishes</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="menudir">
+            <a class="menudir" onclick="ricesticks()">Rice Sticks</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="menudir">
+            <a class="menudir" onclick="sweetsour()">Sweet &amp Sour</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="menudir">
+            <a class="menudir" onclick="beefpork()">Beef &amp Pork</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="menudir">
+            <a class="menudir" onclick="seafood()">Seafood Dishes</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="menudir">
+            <a class="menudir" onclick="veggies()">Vegetables</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="menudir">
+            <a class="menudir" onclick="diet()">Diet Food</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="menudir">
+            <a class="menudir" onclick="chefs()">Chef's Specials</a>
+          </td>
+        </tr>
+      </table>
 
-				<div id = "menutitle">
-					
-				</div>
+      <div id="menu2">
+        <div id="menutitle"></div>
 
-				<div id = "menubody">
-					
-				</div>
+        <div id="menubody"></div>
+      </div>
+    </div>
 
-			</div>
-		</div>
-
-		<script>
-			function appetizers(){
-				document.getElementById("menutitle").innerHTML = "Appetizers";
-				document.getElementById("menubody").innerHTML = 
-				"<table>\
+    <script>
+      function appetizers() {
+        document.getElementById('menutitle').innerHTML = 'Appetizers';
+        document.getElementById('menubody').innerHTML =
+          '<table>\
 						<tr>\
 							<td>0.</td>\
 							<td>Chinese Fried Donut(10)</td>\
@@ -213,15 +209,15 @@
 						<tr>\
 							<td></td>\
 							<td>\
-								<p id = \"menudesc\">Egg roll, chicken finer, crab rangoon, chicken wing,<br> boneless spare ribs, beef teriyaki, fried shrimp</p>\
+								<p id = "menudesc">Egg roll, chicken finer, crab rangoon, chicken wing,<br> boneless spare ribs, beef teriyaki, fried shrimp</p>\
 							</td>\
 						</tr>\
 				</table>\
-				<div id = \"menutitle\">\
+				<div id = "menutitle">\
 				Appetizer Combos\
 				</div>\
-				<div class = \"centered\">\
-				<p id = \"menudesc\">(All Items Can Be Substituted)<br>(Any substitution to Beef Teriyaki is an extra $1.00)</p>\
+				<div class = "centered">\
+				<p id = "menudesc">(All Items Can Be Substituted)<br>(Any substitution to Beef Teriyaki is an extra $1.00)</p>\
 				</div>\
 				<table>\
 					<tr>\
@@ -244,12 +240,12 @@
 						<td>Chicken Finger, Wing, Chicken Teriyaki</td>\
 						<td>$9.75</td>\
 					</tr>\
-				</table>";			
-			}
-			function soup(){
-				document.getElementById("menutitle").innerHTML = "Soup";
-				document.getElementById("menubody").innerHTML = 
-				"<table>\
+				</table>';
+      }
+      function soup() {
+        document.getElementById('menutitle').innerHTML = 'Soup';
+        document.getElementById('menubody').innerHTML =
+          '<table>\
 						<tr>\
 							<td></td>\
 							<td></td>\
@@ -259,7 +255,7 @@
 						</tr>\
 						<tr>\
 							<td>16.</td>\
-							<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+							<td><img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15"></td>\
 							<td>Hot &amp Sour Soup</td>\
 							<td>$3.25</td>\
 							<td>$5.25</td>\
@@ -299,12 +295,12 @@
 							<td></td>\
 							<td>$7.50</td>\
 						</tr>\
-				</table>";
-			}
-			function rice(){
-				document.getElementById("menutitle").innerHTML = "Rice";
-				document.getElementById("menubody").innerHTML = 
-				"<table>\
+				</table>';
+      }
+      function rice() {
+        document.getElementById('menutitle').innerHTML = 'Rice';
+        document.getElementById('menubody').innerHTML =
+          '<table>\
 					<tr>\
 						<td></td>\
 						<td></td>\
@@ -340,12 +336,12 @@
 						<td>Boiled Rice</td>\
 						<td>$2.50</td>\
 					</tr>\
-				</table>";
-			}
-			function lomein(){
-				document.getElementById("menutitle").innerHTML = "Lo Mein";
-				document.getElementById("menubody").innerHTML =
-				"<table>\
+				</table>';
+      }
+      function lomein() {
+        document.getElementById('menutitle').innerHTML = 'Lo Mein';
+        document.getElementById('menubody').innerHTML =
+          '<table>\
 					<tr>\
 						<td></td>\
 						<td></td>\
@@ -391,15 +387,15 @@
 						<td>Cold Summer Sesame Noodles</td>\
 						<td>$8.25</td>\
 					</tr>\
-				</table>";
-			}
-			function chicken(){
-				document.getElementById("menutitle").innerHTML = "Chicken";
-				document.getElementById("menubody").innerHTML = 
-				"<table>\
+				</table>';
+      }
+      function chicken() {
+        document.getElementById('menutitle').innerHTML = 'Chicken';
+        document.getElementById('menubody').innerHTML =
+          '<table>\
 					<tr>\
 						<td>35.</td>\
-						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td><img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15"></td>\
 						<td>Kung Pao Chicken</td>\
 						<td>$10.50</td>\
 					</tr>\
@@ -435,13 +431,13 @@
 					</tr>\
 					<tr>\
 						<td>41.</td>\
-						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td><img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15"></td>\
 						<td>Curry Chicken w/ Onion</td>\
 						<td>$10.50</td>\
 					</tr>\
 					<tr>\
 						<td>42.</td>\
-						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td><img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15"></td>\
 						<td>Chicken w/ Green Bean in Garlic Sauce</td>\
 						<td>$10.50</td>\
 					</tr>\
@@ -453,7 +449,7 @@
 					</tr>\
 					<tr>\
 						<td>44.</td>\
-						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td><img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15"></td>\
 						<td>Chicken w/ Garlic Sauce</td>\
 						<td>$10.50</td>\
 					</tr>\
@@ -465,7 +461,7 @@
 					</tr>\
 					<tr>\
 						<td>46.</td>\
-						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td><img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15"></td>\
 						<td>Hunan Chicken</td>\
 						<td>$10.50</td>\
 					</tr>\
@@ -477,16 +473,16 @@
 					</tr>\
 					<tr>\
 						<td>48.</td>\
-						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td><img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15"></td>\
 						<td>Stir Fried Chicken w/ Hot Sesame Sauce</td>\
 						<td>$10.50</td>\
 					</tr>\
-				</table>";
-			}
-			function cantonese(){
-				document.getElementById("menutitle").innerHTML = "Cantonese";
-				document.getElementById("menubody").innerHTML =
-				"<table>\
+				</table>';
+      }
+      function cantonese() {
+        document.getElementById('menutitle').innerHTML = 'Cantonese';
+        document.getElementById('menubody').innerHTML =
+          '<table>\
 				<tr>\
 					<td>49.</td>\
 					<td></td>\
@@ -496,7 +492,7 @@
 				<tr>\
 					<td></td>\
 					<td></td>\
-					<td><div id = \"menudesc\">(Chicken, Beef, Pork, Shrimp or Vegetable)</div></td>\
+					<td><div id = "menudesc">(Chicken, Beef, Pork, Shrimp or Vegetable)</div></td>\
 					<td></td>\
 				</tr>\
 				<tr>\
@@ -514,7 +510,7 @@
 				<tr>\
 					<td></td>\
 					<td></td>\
-					<td><div id = \"menudesc\">(Chicken, Beef, Pork, Shrimp or Vegetable)</div></td>\
+					<td><div id = "menudesc">(Chicken, Beef, Pork, Shrimp or Vegetable)</div></td>\
 					<td></td>\
 				</tr>\
 				<tr>\
@@ -532,7 +528,7 @@
 				<tr>\
 					<td></td>\
 					<td></td>\
-					<td><div id = \"menudesc\">(Chicken, Beef, Pork, Shrimp or Vegetable)</div></td>\
+					<td><div id = "menudesc">(Chicken, Beef, Pork, Shrimp or Vegetable)</div></td>\
 					<td></td>\
 				</tr>\
 				<tr>\
@@ -541,12 +537,12 @@
 					<td>Mushroom Egg Foo Young</td>\
 					<td>$7.95</td>\
 				</tr>\
-				</table>";
-			}
-			function mooshu(){
-				document.getElementById("menutitle").innerHTML = "Moo Shu Dishes";
-				document.getElementById("menubody").innerHTML = 
-				"<table>\
+				</table>';
+      }
+      function mooshu() {
+        document.getElementById('menutitle').innerHTML = 'Moo Shu Dishes';
+        document.getElementById('menubody').innerHTML =
+          '<table>\
 					<tr>\
 						<td>55.</td>\
 						<td></td>\
@@ -565,12 +561,12 @@
 						<td>Moo Shu with Vegetables</td>\
 						<td>$8.75</td>\
 					</tr>\
-				</table>";
-			}
-			function ricesticks(){
-				document.getElementById("menutitle").innerHTML = "Rice Sticks";
-				document.getElementById("menubody").innerHTML = 
-				"<table>\
+				</table>';
+      }
+      function ricesticks() {
+        document.getElementById('menutitle').innerHTML = 'Rice Sticks';
+        document.getElementById('menubody').innerHTML =
+          '<table>\
 					<tr>\
 						<td>58.</td>\
 						<td></td>\
@@ -586,15 +582,15 @@
 					<tr>\
 						<td></td>\
 						<td></td>\
-						<td><div id = \"menudesc\">(Shrimp, Pork, Beef, Vegetable)</div></td>\
+						<td><div id = "menudesc">(Shrimp, Pork, Beef, Vegetable)</div></td>\
 						<td></td>\
 					</tr>\
-				</table>";
-			}
-			function sweetsour(){
-				document.getElementById("menutitle").innerHTML = "Sweet &amp Sour";
-				document.getElementById("menubody").innerHTML =
-				"<table>\
+				</table>';
+      }
+      function sweetsour() {
+        document.getElementById('menutitle').innerHTML = 'Sweet &amp Sour';
+        document.getElementById('menubody').innerHTML =
+          '<table>\
 					<tr>\
 						<td>60.</td>\
 						<td></td>\
@@ -607,21 +603,21 @@
 						<td>Sweet &amp Sour Shrimp</td>\
 						<td>$10.75</td>\
 					</tr>\
-				</table>";
-			}
-			function beefpork(){
-				document.getElementById("menutitle").innerHTML = "Beef &amp Pork";
-				document.getElementById("menubody").innerHTML = 
-				"<table>\
+				</table>';
+      }
+      function beefpork() {
+        document.getElementById('menutitle').innerHTML = 'Beef &amp Pork';
+        document.getElementById('menubody').innerHTML =
+          '<table>\
 					<tr>\
 						<td>63.</td>\
-						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td><img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15"></td>\
 						<td>Hunan Beef</td>\
 						<td>$11.75</td>\
 					</tr>\
 					<tr>\
 						<td>64.</td>\
-						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td><img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15"></td>\
 						<td>Kung Pao Beef</td>\
 						<td>$11.75</td>\
 					</tr>\
@@ -645,13 +641,13 @@
 					</tr>\
 					<tr>\
 						<td>68.</td>\
-						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td><img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15"></td>\
 						<td>Beef with Garlic Sauce</td>\
 						<td>$11.75</td>\
 					</tr>\
 					<tr>\
 						<td>69.</td>\
-						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td><img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15"></td>\
 						<td>Shredded Spicy Beef</td>\
 						<td>$11.75</td>\
 					</tr>\
@@ -681,7 +677,7 @@
 					</tr>\
 					<tr>\
 						<td>74.</td>\
-						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td><img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15"></td>\
 						<td>Kung Pao Pork</td>\
 						<td>$10.75</td>\
 					</tr>\
@@ -693,13 +689,13 @@
 					</tr>\
 					<tr>\
 						<td>76.</td>\
-						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td><img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15"></td>\
 						<td>Twice Cooked Pork</td>\
 						<td>$10.75</td>\
 					</tr>\
 					<tr>\
 						<td>77.</td>\
-						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td><img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15"></td>\
 						<td>Pork with Garlic Sauce</td>\
 						<td>$10.75</td>\
 					</tr>\
@@ -709,21 +705,21 @@
 						<td>Pork with Pea Pods</td>\
 						<td>$10.75</td>\
 					</tr>\
-				</table>";
-			}
-			function seafood(){
-				document.getElementById("menutitle").innerHTML = "Seafood Dishes";
-				document.getElementById("menubody").innerHTML =
-				"<table>\
+				</table>';
+      }
+      function seafood() {
+        document.getElementById('menutitle').innerHTML = 'Seafood Dishes';
+        document.getElementById('menubody').innerHTML =
+          '<table>\
 					<tr>\
 						<td>79.</td>\
-						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td><img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15"></td>\
 						<td>Kung Pao Shrimp</td>\
 						<td>$11.95</td>\
 					</tr>\
 					<tr>\
 						<td>80.</td>\
-						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td><img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15"></td>\
 						<td>Shrimp with Broccoli</td>\
 						<td>$11.95</td>\
 					</tr>\
@@ -747,7 +743,7 @@
 					</tr>\
 					<tr>\
 						<td>84.</td>\
-						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td><img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15"></td>\
 						<td>Shrimp with Garlic Sauce</td>\
 						<td>$11.95</td>\
 					</tr>\
@@ -765,7 +761,7 @@
 					</tr>\
 					<tr>\
 						<td>87.</td>\
-						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td><img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15"></td>\
 						<td>Shrimp Szechuan Style</td>\
 						<td>$11.95</td>\
 					</tr>\
@@ -777,22 +773,22 @@
 					</tr>\
 					<tr>\
 						<td>89.</td>\
-						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td><img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15"></td>\
 						<td>Scallops Szechuan Style</td>\
 						<td>$12.75</td>\
 					</tr>\
 					<tr>\
 						<td>90.</td>\
-						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td><img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15"></td>\
 						<td>Scallops in Garlic Sauce</td>\
 						<td>$12.75</td>\
 					</tr>\
-				</table>";
-			}
-			function veggies(){
-				document.getElementById("menutitle").innerHTML = "Vegetables";
-				document.getElementById("menubody").innerHTML = 
-				"<table>\
+				</table>';
+      }
+      function veggies() {
+        document.getElementById('menutitle').innerHTML = 'Vegetables';
+        document.getElementById('menubody').innerHTML =
+          '<table>\
 					<tr>\
 						<td>91.</td>\
 						<td></td>\
@@ -807,7 +803,7 @@
 					</tr>\
 					<tr>\
 						<td>93.</td>\
-						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td><img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15"></td>\
 						<td>Broccoli in Garlic Sauce</td>\
 						<td>$8.95</td>\
 					</tr>\
@@ -837,23 +833,23 @@
 					</tr>\
 					<tr>\
 						<td>97.</td>\
-						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td><img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15"></td>\
 						<td>Ma Po Tofu</td>\
 						<td>$8.95</td>\
 					</tr>\
 					<tr>\
 						<td>98.</td>\
-						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td><img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15"></td>\
 						<td>Kung Pao Tofu with Peanut</td>\
 						<td>$8.95</td>\
 					</tr>\
-				</table>";
-			}
-			function diet(){
-				document.getElementById("menutitle").innerHTML = "Diet Food";
-				document.getElementById("menubody").innerHTML =
-				"<div class = \"centered\">\
-				<p id = \"menudesc\">(with Ginger or Brown Sauce)</p>\
+				</table>';
+      }
+      function diet() {
+        document.getElementById('menutitle').innerHTML = 'Diet Food';
+        document.getElementById('menubody').innerHTML =
+          '<div class = "centered">\
+				<p id = "menudesc">(with Ginger or Brown Sauce)</p>\
 				</div>\
 				<table>\
 					<tr>\
@@ -904,46 +900,46 @@
 						<td>Steam Shrimp w/ Mix Veg.</td>\
 						<td>$10.95</td>\
 					</tr>\
-				</table>";
-			}
-			function chefs(){
-				document.getElementById("menutitle").innerHTML = "Chef's Specials";
-				document.getElementById("menubody").innerHTML = 
-				"<table>\
+				</table>';
+      }
+      function chefs() {
+        document.getElementById('menutitle').innerHTML = "Chef's Specials";
+        document.getElementById('menubody').innerHTML =
+          '<table>\
 					<tr>\
 						<td>C1.</td>\
-						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
-						<td>General Tso's Chicken</td>\
+						<td><img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15"></td>\
+						<td>General Tso\'s Chicken</td>\
 						<td>$11.75</td>\
 					</tr>\
 					<tr>\
 						<td></td>\
 						<td></td>\
-						<td><p id = \"menudesc\">Chunks of chicken deep fried to crispy dipped into sweet &<br>sour sauce. Then served with broccoli.</p></td>\
+						<td><p id = "menudesc">Chunks of chicken deep fried to crispy dipped into sweet &<br>sour sauce. Then served with broccoli.</p></td>\
 						<td></td>\
 					</tr>\
 					<tr>\
 						<td>C2.</td>\
-						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td><img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15"></td>\
 						<td>Orange Flavored Crispy Chicken</td>\
 						<td>$11.75</td>\
 					</tr>\
 					<tr>\
 						<td></td>\
 						<td></td>\
-						<td><p id = \"menudesc\">Fried crispy chicken with orange peel in spicy special sauce.</p></td>\
+						<td><p id = "menudesc">Fried crispy chicken with orange peel in spicy special sauce.</p></td>\
 						<td></td>\
 					</tr>\
 					<tr>\
 						<td>C3.</td>\
-						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td><img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15"></td>\
 						<td>Orange Flavored Crispy Beef</td>\
 						<td>$12.50</td>\
 					</tr>\
 					<tr>\
 						<td></td>\
 						<td></td>\
-						<td><p id = \"menudesc\">Fried crispy beef with orange peel in spicy special sauce.</p></td>\
+						<td><p id = "menudesc">Fried crispy beef with orange peel in spicy special sauce.</p></td>\
 						<td></td>\
 					</tr>\
 					<tr>\
@@ -955,7 +951,7 @@
 					<tr>\
 						<td></td>\
 						<td></td>\
-						<td><p id = \"menudesc\">Chunks of chicken deep fried to crsipy, dipped in sweet sauce.<br>Then sprinkled with sesame seeds and served with broccoli.</td>\
+						<td><p id = "menudesc">Chunks of chicken deep fried to crsipy, dipped in sweet sauce.<br>Then sprinkled with sesame seeds and served with broccoli.</td>\
 						<td></td>\
 					</tr>\
 					<tr>\
@@ -967,7 +963,7 @@
 					<tr>\
 						<td></td>\
 						<td></td>\
-						<td><p id = \"menudesc\">Chunks of beef deep fried to crispy, dipped in sweet sauce.<br>Then sprinkled with sesame seeds and served with broccoli.</td>\
+						<td><p id = "menudesc">Chunks of beef deep fried to crispy, dipped in sweet sauce.<br>Then sprinkled with sesame seeds and served with broccoli.</td>\
 						<td></td>\
 					</tr>\
 					<tr>\
@@ -979,31 +975,31 @@
 					<tr>\
 						<td></td>\
 						<td></td>\
-						<td><p id = \"menudesc\">Deep fried tender white meat chicken bedded on top of<br>steamed broccoli with fresh sliced lemon on top with lemon<br>sauce on the side</p></td>\
+						<td><p id = "menudesc">Deep fried tender white meat chicken bedded on top of<br>steamed broccoli with fresh sliced lemon on top with lemon<br>sauce on the side</p></td>\
 						<td></td>\
 					</tr>\
 					<tr>\
 						<td>C7.</td>\
-						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td><img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15"></td>\
 						<td>Ta Chien Chicken</td>\
 						<td>$11.75</td>\
 					</tr>\
 					<tr>\
 						<td></td>\
 						<td></td>\
-						<td><p id = \"menudesc\">Boneless chicken fried crispy & mixed vegetables in hot<br>brown sauce.</p></td>\
+						<td><p id = "menudesc">Boneless chicken fried crispy & mixed vegetables in hot<br>brown sauce.</p></td>\
 						<td></td>\
 					</tr>\
 					<tr>\
 						<td>C8.</td>\
-						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td><img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15"></td>\
 						<td>Salt & Pepper Crispy Shrimp</td>\
 						<td>$12.50</td>\
 					</tr>\
 					<tr>\
 						<td></td>\
 						<td></td>\
-						<td><p id = \"menudesc\">Fried large salt & pepper shrimp with steam broccoli.</p></td>\
+						<td><p id = "menudesc">Fried large salt & pepper shrimp with steam broccoli.</p></td>\
 						<td></td>\
 					</tr>\
 					<tr>\
@@ -1015,7 +1011,7 @@
 					<tr>\
 						<td></td>\
 						<td></td>\
-						<td><p id = \"menudesc\">Jumbo shrimp with shredded vegetable in light sauce.</p></td>\
+						<td><p id = "menudesc">Jumbo shrimp with shredded vegetable in light sauce.</p></td>\
 						<td></td>\
 					</tr>\
 					<tr>\
@@ -1027,7 +1023,7 @@
 					<tr>\
 						<td></td>\
 						<td></td>\
-						<td><p id = \"menudesc\">Shrimp, scallop & mixed vegetable in spicy brown sauce.</p></td>\
+						<td><p id = "menudesc">Shrimp, scallop & mixed vegetable in spicy brown sauce.</p></td>\
 						<td></td>\
 					</tr>\
 					<tr>\
@@ -1039,7 +1035,7 @@
 					<tr>\
 						<td></td>\
 						<td></td>\
-						<td><p id = \"menudesc\">An assortment of culinary sea treasures with mixed<br>vegetables.</p></td>\
+						<td><p id = "menudesc">An assortment of culinary sea treasures with mixed<br>vegetables.</p></td>\
 						<td></td>\
 					</tr>\
 					<tr>\
@@ -1051,7 +1047,7 @@
 					<tr>\
 						<td></td>\
 						<td></td>\
-						<td><p id = \"menudesc\">Shrimp, beef, roast pork, scallop, lobster with mixed vegetables<br>in chef special sauce.</p></td>\
+						<td><p id = "menudesc">Shrimp, beef, roast pork, scallop, lobster with mixed vegetables<br>in chef special sauce.</p></td>\
 						<td></td>\
 					</tr>\
 					<tr>\
@@ -1063,37 +1059,37 @@
 					<tr>\
 						<td></td>\
 						<td></td>\
-						<td><p id = \"menudesc\">Shrimp, scallops, roast pork & chicken with mixed<br>vegetables.</p></td>\
+						<td><p id = "menudesc">Shrimp, scallops, roast pork & chicken with mixed<br>vegetables.</p></td>\
 						<td></td>\
 					</tr>\
 					<tr>\
 						<td>C14.</td>\
-						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td><img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15"></td>\
 						<td>Dragon & Phoenix</td>\
 						<td>$11.75</td>\
 					</tr>\
 					<tr>\
 						<td>C15.</td>\
-						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td><img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15"></td>\
 						<td>Shrimp & Scallops</td>\
 						<td>$12.95</td>\
 					</tr>\
 					<tr>\
 						<td></td>\
 						<td></td>\
-						<td><p id = \"menudesc\">Jumbo shrimp & scallops, broccoli, red & green pepper in hot<br>spicy garlic sauce.</p></td>\
+						<td><p id = "menudesc">Jumbo shrimp & scallops, broccoli, red & green pepper in hot<br>spicy garlic sauce.</p></td>\
 						<td></td>\
 					</tr>\
 					<tr>\
 						<td>C16.</td>\
-						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td><img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15"></td>\
 						<td>Lake Tung Ting Shrimp</td>\
 						<td>$11.95</td>\
 					</tr>\
 					<tr>\
 						<td></td>\
 						<td></td>\
-						<td><p id = \"menudesc\">Large shrimp with assorted vegetables & egg white in light<br>sauce.</p></td>\
+						<td><p id = "menudesc">Large shrimp with assorted vegetables & egg white in light<br>sauce.</p></td>\
 						<td></td>\
 					</tr>\
 					<tr>\
@@ -1105,7 +1101,7 @@
 					<tr>\
 						<td></td>\
 						<td></td>\
-						<td><p id = \"menudesc\">Scallop, beef, Chinese vegetable & broccoli in brown sauce.</p></td>\
+						<td><p id = "menudesc">Scallop, beef, Chinese vegetable & broccoli in brown sauce.</p></td>\
 						<td></td>\
 					</tr>\
 					<tr>\
@@ -1117,19 +1113,19 @@
 					<tr>\
 						<td></td>\
 						<td></td>\
-						<td><p id = \"menudesc\">Large shrimp, chicken, beef,  baby corn, broccoli, mushroom,<br>in brown sauce.</p></td>\
+						<td><p id = "menudesc">Large shrimp, chicken, beef,  baby corn, broccoli, mushroom,<br>in brown sauce.</p></td>\
 						<td></td>\
 					</tr>\
 					<tr>\
 						<td>C19.</td>\
-						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td><img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15"></td>\
 						<td>Kung Pao Three Delights</td>\
 						<td>$11.95</td>\
 					</tr>\
 					<tr>\
 						<td></td>\
 						<td></td>\
-						<td><p id = \"menudesc\">Large shrimp, beef, chicken, red & green pepper & peanuts.</p></td>\
+						<td><p id = "menudesc">Large shrimp, beef, chicken, red & green pepper & peanuts.</p></td>\
 						<td></td>\
 					</tr>\
 					<tr>\
@@ -1141,19 +1137,19 @@
 					<tr>\
 						<td></td>\
 						<td></td>\
-						<td><p id = \"menudesc\">Combination of lobster, large shrimps, scallops, beef, crab<br>meat w/ mixed vegetables in our chef's special sauce and crispy<br>white meat chicken & crab rangoon on the side.</p></td>\
+						<td><p id = "menudesc">Combination of lobster, large shrimps, scallops, beef, crab<br>meat w/ mixed vegetables in our chef\'s special sauce and crispy<br>white meat chicken & crab rangoon on the side.</p></td>\
 						<td></td>\
 					</tr>\
 					<tr>\
 						<td>C21.</td>\
-						<td><img src = \"Pictures/chili.png\" alt = \"spicy\" height = \"15\" width = \"15\"></td>\
+						<td><img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15"></td>\
 						<td>Hunan Crispy Beef</td>\
 						<td>$12.50</td>\
 					</tr>\
 					<tr>\
 						<td></td>\
 						<td></td>\
-						<td><p id = \"menudesc\">Fried crispy beef in spicy sauce.</p></td>\
+						<td><p id = "menudesc">Fried crispy beef in spicy sauce.</p></td>\
 						<td></td>\
 					</tr>\
 					<tr>\
@@ -1171,12 +1167,11 @@
 					<tr>\
 						<td></td>\
 						<td></td>\
-						<td><p id = \"menudesc\">Fried crispy duck, shrimp, roast pork, scallop with mixed<br>vegetables.</p></td>\
+						<td><p id = "menudesc">Fried crispy duck, shrimp, roast pork, scallop with mixed<br>vegetables.</p></td>\
 						<td></td>\
 					</tr>\
-				</table>";
-			}
-		</script>
-
-	</body>
+				</table>';
+      }
+    </script>
+  </body>
 </html>
