@@ -219,7 +219,8 @@ div.menu {
 }
 
 /*Lunch Menu page style*/
-p.lunchheader {
+p.lunchheader,
+#menutitle {
   margin: 0;
   padding: 10px;
   text-align: center;
@@ -289,7 +290,7 @@ a.menudir:hover {
 
 #menubody table {
   table-layout: auto;
-  width: 80%;
+  width: 85%;
 }
 
 #menu2 {
@@ -297,11 +298,6 @@ a.menudir:hover {
   margin-left: 80px;
   margin-top: 50px;
   width: 65%;
-}
-
-#menutitle {
-  font-size: 32px;
-  text-align: center;
 }
 
 #menubody {
