@@ -5,12 +5,13 @@ async function getMenuData(section) {
     appetizerDataArray.forEach((item) => {
       let itemString = `<tr>
                           <td>${item.Number}.</td>
-                          ${
+                          <td>${
                             item.Spicy === 'TRUE'
-                              ? '<td><img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15"></td>'
-                              : '<td></td>'
-                          }
+                              ? '<img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15">'
+                              : ''
+                          }</td>
                           <td>${item.Name}</td>
+                          ${section === 'Soup' ? `<td>${item['Pt. Price'] ?? ''}</td>` : ''}
                           <td>${item.Price}</td>
                         </tr>`;
       appetizerHTML += itemString;
@@ -27,6 +28,7 @@ async function getMenuData(section) {
     });
     document.getElementById('menutitle').innerHTML = section;
     document.getElementById('menubody').innerHTML = `<table>
+            ${section === 'Soup' ? '<tr><td></td><td></td><td></td><td>Pt.</td><td>Qt.</td></tr>' : ''}
             ${appetizerHTML}		
           </table>`;
   });
