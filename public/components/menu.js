@@ -1,36 +1,50 @@
 async function getMenuData(section) {
   $.getJSON('Menu/menu.json', function (json) {
-    let appetizerDataArray = json.data.filter((menuObj) => menuObj.Section === section);
-    let appetizerHTML = '';
-    appetizerDataArray.forEach((item) => {
-      let itemString = `<tr>
-                          <td>${item.Number}.</td>
-                          <td>${
-                            item.Spicy === 'TRUE'
-                              ? '<img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15">'
-                              : ''
-                          }</td>
-                          <td>${item.Name}</td>
-                          ${section === 'Soup' ? `<td>${item['Pt. Price'] ?? ''}</td>` : ''}
-                          <td>${item.Price}</td>
-                        </tr>`;
-      appetizerHTML += itemString;
+    document.getElementById('menutitle').innerHTML = section;
+    let menuItemsArray = json.data.filter((menuObj) => menuObj.Section === section);
+    let menuHTML = '';
+    menuItemsArray.forEach((item) => {
+      menuHTML += `<tr>
+                      <td>${item.Number}.</td>
+                      <td>${
+                        item.Spicy === 'TRUE'
+                          ? '<img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15">'
+                          : ''
+                      }</td>
+                      <td>${item.Name}</td>
+                      ${section === 'Soup' ? `<td>${item['Pt. Price'] ?? ''}</td>` : ''}
+                      <td>${item.Price}</td>
+                    </tr>`;
       if (item.Description) {
-        let itemDescription = `<tr>
-                                <td></td>
-                                <td></td>
-                                <td>
-                                  <p id = "menudesc">${item.Description}</p>
-                                </td>
-                              </tr>`;
-        appetizerHTML += itemDescription;
+        menuHTML += `<tr>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        <p id = "menudesc">${item.Description}</p>
+                      </td>
+                    </tr>`;
       }
     });
-    document.getElementById('menutitle').innerHTML = section;
-    document.getElementById('menubody').innerHTML = `<table>
-            ${section === 'Soup' ? '<tr><td></td><td></td><td></td><td>Pt.</td><td>Qt.</td></tr>' : ''}
-            ${appetizerHTML}		
-          </table>`;
+    if (section === 'Appetizers') {
+      appComboInnerTableHTML = '';
+      let appComboArray = json.data.filter((menuObj) => menuObj.Section === 'Appetizers Combo');
+      appComboArray.forEach((item) => {
+        appComboInnerTableHTML += `<tr>
+                                      <td>${item.Number}.</td>
+                                      <td></td>
+                                      <td>${item.Name}</td>
+                                      <td>${item.Price}</td>
+                                    </tr>`;
+      });
+      document.getElementById(
+        'menubody'
+      ).innerHTML = `<table>${menuHTML}</table><div id = "menutitle">Appetizer Combos</div><div class = "centered"><p id = "menudesc">(All Items Can Be Substituted)<br>(Any substitution to Beef Teriyaki is an extra $1.00)</p></div><table>${appComboInnerTableHTML}</table>`;
+    } else {
+      document.getElementById('menubody').innerHTML = `<table>
+              ${section === 'Soup' ? '<tr><td></td><td></td><td></td><td>Pt.</td><td>Qt.</td></tr>' : ''}
+              ${menuHTML}		
+            </table>`;
+    }
   });
 }
 
