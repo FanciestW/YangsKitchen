@@ -287,10 +287,16 @@ a.menudir:hover {
   cursor: pointer;
 }
 
+#menubody table {
+  table-layout: auto;
+  width: 80%;
+}
+
 #menu2 {
   float: left;
-  margin-left: 180px;
+  margin-left: 80px;
   margin-top: 50px;
+  width: 65%;
 }
 
 #menutitle {
