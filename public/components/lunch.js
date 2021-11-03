@@ -6,7 +6,6 @@ $(document).ready(function () {
     let lunchItemsArray = json.data.filter((menuObj) =>
       ['Lunch Special', 'Lunch Appetizers Combo'].includes(menuObj.Section)
     );
-    console.log(lunchItemsArray);
     lunchItemsArray.forEach((item) => {
       lunchNum = parseInt(item.Number.slice(1));
       lunchItemHTML = `<tr>
