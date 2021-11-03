@@ -6,11 +6,13 @@ async function getMenuData(section) {
     menuItemsArray.forEach((item) => {
       menuHTML += `<tr>
                       <td class='item-number'>${item.Number}.</td>
-                      <td class='spicy'>${
+                      <td class='spicy'>
+                      ${
                         item.Spicy === 'TRUE'
                           ? '<img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15">'
                           : ''
-                      }</td>
+                      }
+                      </td>
                       <td>${item.Name}</td>
                       ${section === 'Soup' ? `<td>${item['Pt. Price'] ?? ''}</td>` : ''}
                       <td>${item.Price}</td>
