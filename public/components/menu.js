@@ -5,8 +5,8 @@ async function getMenuData(section) {
     let menuHTML = '';
     menuItemsArray.forEach((item) => {
       menuHTML += `<tr>
-                      <td>${item.Number}.</td>
-                      <td>${
+                      <td class='item-number'>${item.Number}.</td>
+                      <td class='spicy'>${
                         item.Spicy === 'TRUE'
                           ? '<img src = "Pictures/chili.png" alt = "spicy" height = "15" width = "15">'
                           : ''
@@ -30,7 +30,7 @@ async function getMenuData(section) {
       let appComboArray = json.data.filter((menuObj) => menuObj.Section === 'Appetizers Combo');
       appComboArray.forEach((item) => {
         appComboInnerTableHTML += `<tr>
-                                      <td>${item.Number}.</td>
+                                      <td class='item-number'>${item.Number}.</td>
                                       <td></td>
                                       <td>${item.Name}</td>
                                       <td>${item.Price}</td>
@@ -42,6 +42,11 @@ async function getMenuData(section) {
     } else {
       document.getElementById('menubody').innerHTML = `<table>
               ${section === 'Soup' ? '<tr><td></td><td></td><td></td><td>Pt.</td><td>Qt.</td></tr>' : ''}
+              ${
+                section === 'Diet Food'
+                  ? '<div class = "centered"><p id = "menudesc">(served w/ Ginger or Brown Sauce)</p></div>'
+                  : ''
+              }
               ${menuHTML}		
             </table>`;
     }
@@ -83,6 +88,9 @@ function seafood() {
 }
 function veggies() {
   getMenuData('Vegetables');
+}
+function dietfood() {
+  getMenuData('Diet Food');
 }
 function chefs() {
   getMenuData("Chef's Specials");
