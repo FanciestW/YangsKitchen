@@ -219,9 +219,10 @@ div.menu {
 }
 
 /*Lunch Menu page style*/
-p.lunchheader {
+p.lunchheader,
+#menutitle {
   margin: 0;
-  padding: 10px;
+  padding: 10px 10px 0px 10px;
   text-align: center;
   font-size: 42px;
   font-weight: bolder;
@@ -237,29 +238,34 @@ p.lunchcaption {
 
 div.lunch {
   font-size: 20px;
-  position: center;
+  margin-top: 10px;
 }
 
 table.lunch1 {
-  margin-left: 68px;
   float: left;
-  table-layout: fixed;
+  table-layout: auto;
+  width: 48%;
+  margin-left: 28px;
 }
 
 table.lunch2 {
   display: inline-block;
-  table-layout: fixed;
+  table-layout: auto;
+  width: 48%;
+  margin-left: 8px;
 }
 
 div.lunch2 {
   font-size: 20px;
   position: center;
+  margin-top: 10px;
 }
 
 table.lunch3 {
   margin-left: auto;
   margin-right: auto;
-  table-layout: fixed;
+  table-layout: auto;
+  width: 60%;
 }
 
 /*Style for new menu*/
@@ -287,15 +293,24 @@ a.menudir:hover {
   cursor: pointer;
 }
 
-#menu2 {
-  float: left;
-  margin-left: 180px;
-  margin-top: 50px;
+#menubody table {
+  table-layout: auto;
+  width: 85%;
 }
 
-#menutitle {
-  font-size: 32px;
+td.item-number {
+  text-align: right;
+}
+
+td.spicy {
   text-align: center;
+}
+
+#menu2 {
+  float: left;
+  margin-left: 80px;
+  margin-top: 50px;
+  width: 65%;
 }
 
 #menubody {

@@ -1,0 +1,1193 @@
+{
+  "data": [
+    {
+      "Name": "Chinese Fried Donut (10)",
+      "Number": "0",
+      "Price": "$5.25",
+      "Section": "Appetizers",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Vegetable Tempura",
+      "Number": "1",
+      "Price": "$6.95",
+      "Section": "Appetizers",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Spring Rolls (2)",
+      "Number": "2",
+      "Price": "$3.95",
+      "Section": "Appetizers",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Egg Rolls (2)",
+      "Number": "3",
+      "Price": "$4.50",
+      "Section": "Appetizers",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Peking Ravioli",
+      "Number": "4",
+      "Price": "$7.95",
+      "Section": "Appetizers",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Scallion Pancakes",
+      "Number": "5",
+      "Price": "$5.75",
+      "Section": "Appetizers",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Chicken Fingers",
+      "Number": "6",
+      "Price": "$8.25",
+      "Section": "Appetizers",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Chicken Wings",
+      "Number": "7",
+      "Price": "$9.95",
+      "Section": "Appetizers",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Beef Teriyaki",
+      "Number": "8",
+      "Price": "$8.50",
+      "Section": "Appetizers",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Chicken Teriyaki",
+      "Number": "9",
+      "Price": "$8.50",
+      "Section": "Appetizers",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Boneless Spare Ribs",
+      "Number": "10",
+      "Price": "$8.50",
+      "Section": "Appetizers",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Fried Jumbo Shrimp",
+      "Number": "11",
+      "Price": "$8.95",
+      "Section": "Appetizers",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Crab Rangoons",
+      "Number": "12",
+      "Price": "$7.95",
+      "Section": "Appetizers",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Barbecued Spare Ribs",
+      "Number": "13",
+      "Price": "$8.75",
+      "Section": "Appetizers",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Fried Wontons (with Meat)",
+      "Number": "14",
+      "Price": "$5.25",
+      "Section": "Appetizers",
+      "Spicy": "FALSE"
+    },
+    {
+      "Description": "Egg roll, chicken finger, crab rangoon, chicken wing, boneless spare ribs, beef teriyaki, fried shrimp",
+      "Name": "Pu Pu Platter (for 2)",
+      "Number": "15",
+      "Price": "$20.95",
+      "Section": "Appetizers",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Wing, Teriyaki Beef, Boneless Rib",
+      "Number": "#1",
+      "Price": "$11.25",
+      "Section": "Appetizers Combo",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Crab Rangoons, Chicken Finger, Fried Shrimp",
+      "Number": "#2",
+      "Price": "$10.25",
+      "Section": "Appetizers Combo",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Chicken Finger, Wing, Crab Rangoon",
+      "Number": "#3",
+      "Price": "$10.25",
+      "Section": "Appetizers Combo",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Chicken Finger, Wing, Chicken Teriyaki",
+      "Number": "#4",
+      "Price": "$10.25",
+      "Section": "Appetizers Combo",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Hot \u0026 Sour Soup",
+      "Number": "16",
+      "Price": "$5.50",
+      "Pt. Price": "$3.50",
+      "Section": "Soup",
+      "Spicy": "TRUE"
+    },
+    {
+      "Name": "Wonton Soup",
+      "Number": "17",
+      "Price": "$4.75",
+      "Pt. Price": "$2.95",
+      "Section": "Soup",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Egg Drop Soup",
+      "Number": "18",
+      "Price": "$4.25",
+      "Pt. Price": "$2.50",
+      "Section": "Soup",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Vegetable Soup with Bean Curd",
+      "Number": "19",
+      "Price": "$5.50",
+      "Section": "Soup",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Seafood Soup",
+      "Number": "20",
+      "Price": "$7.50",
+      "Section": "Soup",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "House Special Soup",
+      "Number": "21",
+      "Price": "$7.95",
+      "Section": "Soup",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Yang Chow Fried Rice",
+      "Number": "22",
+      "Price": "$9.25",
+      "Section": "Rice",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "House Special Fried Rice",
+      "Number": "23",
+      "Price": "$9.25",
+      "Section": "Rice",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Fried Rice (Chicken or Pork)",
+      "Number": "24",
+      "Price": "$8.50",
+      "Section": "Rice",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Shrimp or Beef Fried Rice",
+      "Number": "25",
+      "Price": "$9.25",
+      "Section": "Rice",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Vegetable Fried Rice",
+      "Number": "26",
+      "Price": "$7.95",
+      "Section": "Rice",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Boiled Rice",
+      "Number": "27",
+      "Price": "$2.75",
+      "Section": "Rice",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Lo Mein (Chicken, Pork, or Veg)",
+      "Number": "28",
+      "Price": "$9.25",
+      "Section": "Lo Mein",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "House Special Lo Mein",
+      "Number": "29",
+      "Price": "$9.75",
+      "Section": "Lo Mein",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Shrimp or Beef Lo Mein",
+      "Number": "30",
+      "Price": "$9.75",
+      "Section": "Lo Mein",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Plain Lo Mein",
+      "Number": "30a",
+      "Price": "$7.50",
+      "Section": "Lo Mein",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Two Sides Yellow Noodles with Seafood",
+      "Number": "31",
+      "Price": "$12.25",
+      "Section": "Lo Mein",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Pan Fried Noodle (Shrimp, Beef, Pork)",
+      "Number": "32",
+      "Price": "$11.50",
+      "Section": "Lo Mein",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Gai Po Lo Mein",
+      "Number": "33",
+      "Price": "$11.25",
+      "Section": "Lo Mein",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Cold Summer Sesame Noodles",
+      "Number": "34",
+      "Price": "$8.50",
+      "Section": "Lo Mein",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Kung Pao Chicken",
+      "Number": "35",
+      "Price": "$10.95",
+      "Section": "Poultry",
+      "Spicy": "TRUE"
+    },
+    {
+      "Name": "Chicken with Cashew Nuts",
+      "Number": "36",
+      "Price": "$10.95",
+      "Section": "Poultry",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Chicken with Broccoli",
+      "Number": "37",
+      "Price": "$10.95",
+      "Section": "Poultry",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Chicken with Pea Pods",
+      "Number": "38",
+      "Price": "$10.95",
+      "Section": "Poultry",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Moo Goo Gai Pan",
+      "Number": "39",
+      "Price": "$10.95",
+      "Section": "Poultry",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Eight Treasure Chicken",
+      "Number": "40",
+      "Price": "$10.95",
+      "Section": "Poultry",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Curry Chicken with Onion",
+      "Number": "41",
+      "Price": "$10.95",
+      "Section": "Poultry",
+      "Spicy": "TRUE"
+    },
+    {
+      "Name": "Chicken w. Green Bean in Garlic Sauce",
+      "Number": "42",
+      "Price": "$10.95",
+      "Section": "Poultry",
+      "Spicy": "TRUE"
+    },
+    {
+      "Name": "Chicken with Mixed Vegetables",
+      "Number": "43",
+      "Price": "$10.95",
+      "Section": "Poultry",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Chicken with Garlic Sauce",
+      "Number": "44",
+      "Price": "$10.95",
+      "Section": "Poultry",
+      "Spicy": "TRUE"
+    },
+    {
+      "Name": "Chicken with Ginger \u0026 Scallions",
+      "Number": "45",
+      "Price": "$10.95",
+      "Section": "Poultry",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Hunan Chicken",
+      "Number": "46",
+      "Price": "$10.95",
+      "Section": "Poultry",
+      "Spicy": "TRUE"
+    },
+    {
+      "Name": "Hon Sue Gai",
+      "Number": "47",
+      "Price": "$10.95",
+      "Section": "Poultry",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Stir Fried Chicken with Hot Sesame Sauce",
+      "Number": "48",
+      "Price": "$10.95",
+      "Section": "Poultry",
+      "Spicy": "TRUE"
+    },
+    {
+      "Name": "Chow Mein (Chicken, Beef, Pork, Shrimp, or Vegetable)",
+      "Number": "49",
+      "Price": "$8.95",
+      "Section": "Cantonese",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "House Special Chow Mein",
+      "Number": "50",
+      "Price": "$9.75",
+      "Section": "Cantonese",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Chop Suey (Chicken, Beef, Pork, Shrimp, or Vegetable)",
+      "Number": "51",
+      "Price": "$9.75",
+      "Section": "Cantonese",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "House Special Chop Suey",
+      "Number": "52",
+      "Price": "$10.25",
+      "Section": "Cantonese",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Egg Foo Young (Chicken, Beef, Pork, or Shrimp)",
+      "Number": "53",
+      "Price": "$9.25",
+      "Section": "Cantonese",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Mushroom Egg Foo Young",
+      "Number": "54",
+      "Price": "$8.50",
+      "Section": "Cantonese",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Moo Shi Chicken or Pork",
+      "Number": "55",
+      "Price": "$9.75",
+      "Section": "Moo Shi Dishes",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Moo Shi Shrimp or Beef",
+      "Number": "56",
+      "Price": "$10.25",
+      "Section": "Moo Shi Dishes",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Moo Shi with Vegetable",
+      "Number": "57",
+      "Price": "$9.25",
+      "Section": "Moo Shi Dishes",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Curry Noodles Singapore Style",
+      "Number": "58",
+      "Price": "$10.50",
+      "Section": "Rice Sticks",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Rice Sticks with (Shrimp, Pork, Beef, or Vegetable)",
+      "Number": "59",
+      "Price": "$9.75",
+      "Section": "Rice Sticks",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Sweet \u0026 Sour Chicken",
+      "Number": "60",
+      "Price": "$10.25",
+      "Section": "Sweet \u0026 Sour",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Sweet \u0026 Sour Shrimp",
+      "Number": "62",
+      "Price": "$11.25",
+      "Section": "Sweet \u0026 Sour",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Hunan Beef",
+      "Number": "63",
+      "Price": "$12.25",
+      "Section": "Beef \u0026 Pork",
+      "Spicy": "TRUE"
+    },
+    {
+      "Name": "Kung Pao Beef",
+      "Number": "64",
+      "Price": "$12.25",
+      "Section": "Beef \u0026 Pork",
+      "Spicy": "TRUE"
+    },
+    {
+      "Name": "Beef with Broccoli",
+      "Number": "65",
+      "Price": "$12.25",
+      "Section": "Beef \u0026 Pork",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Beef with Seasonal Vegetable",
+      "Number": "66",
+      "Price": "$12.25",
+      "Section": "Beef \u0026 Pork",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Pepper Steak with Onion",
+      "Number": "67",
+      "Price": "$12.25",
+      "Section": "Beef \u0026 Pork",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Beef in Garlic Sauce",
+      "Number": "68",
+      "Price": "$12.25",
+      "Section": "Beef \u0026 Pork",
+      "Spicy": "TRUE"
+    },
+    {
+      "Name": "Shredded Spicy Beef",
+      "Number": "69",
+      "Price": "$12.25",
+      "Section": "Beef \u0026 Pork",
+      "Spicy": "TRUE"
+    },
+    {
+      "Name": "Beef with Green Bean",
+      "Number": "70",
+      "Price": "$12.25",
+      "Section": "Beef \u0026 Pork",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Beef with Pea Pods",
+      "Number": "71",
+      "Price": "$12.25",
+      "Section": "Beef \u0026 Pork",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Beef with Scallions",
+      "Number": "72",
+      "Price": "$12.25",
+      "Section": "Beef \u0026 Pork",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Monglian Beef",
+      "Number": "73",
+      "Price": "$12.25",
+      "Section": "Beef \u0026 Pork",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Kung Pao Pork",
+      "Number": "74",
+      "Price": "$11.25",
+      "Section": "Beef \u0026 Pork",
+      "Spicy": "TRUE"
+    },
+    {
+      "Name": "Pork with Broccoli",
+      "Number": "75",
+      "Price": "$11.25",
+      "Section": "Beef \u0026 Pork",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Twice Cooked Pork",
+      "Number": "76",
+      "Price": "$11.25",
+      "Section": "Beef \u0026 Pork",
+      "Spicy": "TRUE"
+    },
+    {
+      "Name": "Pork with Garlic Sauce",
+      "Number": "77",
+      "Price": "$11.25",
+      "Section": "Beef \u0026 Pork",
+      "Spicy": "TRUE"
+    },
+    {
+      "Name": "Pork with Pea Pods",
+      "Number": "78",
+      "Price": "$11.25",
+      "Section": "Beef \u0026 Pork",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Kung Pao Shrimp",
+      "Number": "79",
+      "Price": "$12.50",
+      "Section": "Seafood Dishes",
+      "Spicy": "TRUE"
+    },
+    {
+      "Name": "Shrimp with Broccoli",
+      "Number": "80",
+      "Price": "$12.50",
+      "Section": "Seafood Dishes",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Shrimp with Mixed Vegetables",
+      "Number": "81",
+      "Price": "$12.50",
+      "Section": "Seafood Dishes",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Shrimp with Cashew Nuts",
+      "Number": "82",
+      "Price": "$12.50",
+      "Section": "Seafood Dishes",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Shrimp with Lobster Sauce",
+      "Number": "83",
+      "Price": "$12.50",
+      "Section": "Seafood Dishes",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Shrimp in Garlic Sauce",
+      "Number": "84",
+      "Price": "$12.50",
+      "Section": "Seafood Dishes",
+      "Spicy": "TRUE"
+    },
+    {
+      "Name": "Shrimp with Pea Pods",
+      "Number": "85",
+      "Price": "$12.50",
+      "Section": "Seafood Dishes",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Shrimp with Black Bean Sauce",
+      "Number": "86",
+      "Price": "$12.50",
+      "Section": "Seafood Dishes",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Shrimp Szechuan Style",
+      "Number": "87",
+      "Price": "$12.50",
+      "Section": "Seafood Dishes",
+      "Spicy": "TRUE"
+    },
+    {
+      "Name": "Scallops with Mixed Vegetables",
+      "Number": "88",
+      "Price": "$13.75",
+      "Section": "Seafood Dishes",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Scallops Szechuan Style",
+      "Number": "89",
+      "Price": "$13.75",
+      "Section": "Seafood Dishes",
+      "Spicy": "TRUE"
+    },
+    {
+      "Name": "Scallops in Garlic Sauce",
+      "Number": "90",
+      "Price": "$13.75",
+      "Section": "Seafood Dishes",
+      "Spicy": "TRUE"
+    },
+    {
+      "Name": "Vegetable Delight",
+      "Number": "91",
+      "Price": "$9.25",
+      "Section": "Vegetables",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Pan Fried Green Beans",
+      "Number": "92",
+      "Price": "$9.25",
+      "Section": "Vegetables",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Brocolli in Garlic Sauce",
+      "Number": "93",
+      "Price": "$9.25",
+      "Section": "Vegetables",
+      "Spicy": "TRUE"
+    },
+    {
+      "Name": "Sauteed Broccoli",
+      "Number": "94",
+      "Price": "$9.25",
+      "Section": "Vegetables",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Sauteed Waterchestnets, Pea Pods, Bamboo Shoots",
+      "Number": "95",
+      "Price": "$9.25",
+      "Section": "Vegetables",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Home Style Tofu",
+      "Number": "96",
+      "Price": "$9.25",
+      "Section": "Vegetables",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Ma Po Tofu",
+      "Number": "97",
+      "Price": "$9.25",
+      "Section": "Vegetables",
+      "Spicy": "TRUE"
+    },
+    {
+      "Name": "Kung Pao Tofu with Peanuts",
+      "Number": "98",
+      "Price": "$9.25",
+      "Section": "Vegetables",
+      "Spicy": "TRUE"
+    },
+    {
+      "Name": "Steam Broccoli",
+      "Number": "D1",
+      "Price": "$8.95",
+      "Section": "Diet Food",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Steam Mix Vegetable",
+      "Number": "D2",
+      "Price": "$8.95",
+      "Section": "Diet Food",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Steam Chicken w. Broccoli",
+      "Number": "D3",
+      "Price": "$10.50",
+      "Section": "Diet Food",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Steam Chicken w. Snow Pea",
+      "Number": "D4",
+      "Price": "$10.50",
+      "Section": "Diet Food",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Steam Chicken w. Mix Veg.",
+      "Number": "D5",
+      "Price": "$10.50",
+      "Section": "Diet Food",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Steam Shrimp w. Broccoli",
+      "Number": "D6",
+      "Price": "$11.50",
+      "Section": "Diet Food",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Steam Shrimp w. Snow Pea",
+      "Number": "D7",
+      "Price": "$11.50",
+      "Section": "Diet Food",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Steam Shrimp w. Mix Veg.",
+      "Number": "D8",
+      "Price": "$11.50",
+      "Section": "Diet Food",
+      "Spicy": "FALSE"
+    },
+    {
+      "Description": "Chunks of chicken deep fried to crispy dipped into sweet \u0026 sour sauce. Then save on top of broccoli.",
+      "Name": "General Tso's Chicken",
+      "Number": "C1",
+      "Price": "$12.25",
+      "Section": "Chef's Specials",
+      "Spicy": "TRUE"
+    },
+    {
+      "Description": "Fried crispy chicken with orange peel in spicy special sauce.",
+      "Name": "Orange Flavored Crispy Chicken",
+      "Number": "C2",
+      "Price": "$12.25",
+      "Section": "Chef's Specials",
+      "Spicy": "TRUE"
+    },
+    {
+      "Description": "Fried crispy beef with orange peel in spicy special sauce.",
+      "Name": "Orange Flavored Crispy Beef",
+      "Number": "C3",
+      "Price": "$12.95",
+      "Section": "Chef's Specials",
+      "Spicy": "TRUE"
+    },
+    {
+      "Description": "Chunks of chicken deep fried to crispy, dipped in sweet sauce. Tnen sprinkled with seasame seeds in top of broccoli.",
+      "Name": "Sesame Chicken",
+      "Number": "C4",
+      "Price": "$12.25",
+      "Section": "Chef's Specials",
+      "Spicy": "FALSE"
+    },
+    {
+      "Description": "Chunks of beef deep fried to crispy, dipped in sweet sauce. Tnen sprinkled with seasame seeds in top of broccoli.",
+      "Name": "Sesame Beef",
+      "Number": "C5",
+      "Price": "$12.95",
+      "Section": "Chef's Specials",
+      "Spicy": "FALSE"
+    },
+    {
+      "Description": "Deep fried tender white meat chicken bedded on top of steamed broccoli with fresh sliced lemon on top with lemon sauce on the side.",
+      "Name": "Lemon Chicken",
+      "Number": "C6",
+      "Price": "$11.25",
+      "Section": "Chef's Specials",
+      "Spicy": "FALSE"
+    },
+    {
+      "Description": "Boneless chicken fried crispy \u0026 mixed vegetables in hot brown sauce.",
+      "Name": "Ta Chien Chicken",
+      "Number": "C7",
+      "Price": "$12.25",
+      "Section": "Chef's Specials",
+      "Spicy": "TRUE"
+    },
+    {
+      "Description": "Fried large salt \u0026 pepper shrimp with on bottom steam broccoli.",
+      "Name": "Salt \u0026 Pepper Crispy Shrimp",
+      "Number": "C8",
+      "Price": "$12.95",
+      "Section": "Chef's Specials",
+      "Spicy": "TRUE"
+    },
+    {
+      "Description": "Jumbo shrimp with shredded vegetable in light sauce.",
+      "Name": "Rainbow Shrimp",
+      "Number": "C9",
+      "Price": "$12.50",
+      "Section": "Chef's Specials",
+      "Spicy": "FALSE"
+    },
+    {
+      "Description": "Shrimp, scallop \u0026 mixed vegetable in spicy brown sauce.",
+      "Name": "Rose Shrimp",
+      "Number": "C10",
+      "Price": "$13.50",
+      "Section": "Chef's Specials",
+      "Spicy": "FALSE"
+    },
+    {
+      "Description": "An assortment of culinary sea treasures with mixed vegetables.",
+      "Name": "House Special Seafood Delights",
+      "Number": "C11",
+      "Price": "$16.50",
+      "Section": "Chef's Specials",
+      "Spicy": "FALSE"
+    },
+    {
+      "Description": "Shrimp, beef, roast pork, scallop, lobster with mixed vegetables in chef special sauce.",
+      "Name": "Happy Family",
+      "Number": "C12",
+      "Price": "$16.50",
+      "Section": "Chef's Specials",
+      "Spicy": "FALSE"
+    },
+    {
+      "Description": "Shrimp, scallops, roast pork \u0026 chicken with mixed vegetables.",
+      "Name": "Four Season",
+      "Number": "C13",
+      "Price": "$13.50",
+      "Section": "Chef's Specials",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Dragon \u0026 Phoenix",
+      "Number": "C14",
+      "Price": "$12.25",
+      "Section": "Chef's Specials",
+      "Spicy": "TRUE"
+    },
+    {
+      "Description": "Jumbo shrimp \u0026 scallops, broccoli, red \u0026 green pepper in hot spicy garlic sauce.",
+      "Name": "Shrimp \u0026 Scallops",
+      "Number": "C15",
+      "Price": "$13.50",
+      "Section": "Chef's Specials",
+      "Spicy": "TRUE"
+    },
+    {
+      "Description": "Large shrimp with assorted vegetable \u0026 egg white in light sauce.",
+      "Name": "Lake Tung Ting Shrimp",
+      "Number": "C16",
+      "Price": "$12.50",
+      "Section": "Chef's Specials",
+      "Spicy": "TRUE"
+    },
+    {
+      "Description": "Scallop, beef \u0026 Chinese vegetable broccoli in brown sauce.",
+      "Name": "Marble Beef",
+      "Number": "C17",
+      "Price": "$13.50",
+      "Section": "Chef's Specials",
+      "Spicy": "FALSE"
+    },
+    {
+      "Description": "Large shrimp, chicken ,beef, baby corn, broccoli, mushroom, in brown sauce.",
+      "Name": "Triple Delight",
+      "Number": "C18",
+      "Price": "$13.50",
+      "Section": "Chef's Specials",
+      "Spicy": "FALSE"
+    },
+    {
+      "Description": "Large shrimp, beef, chicken, red \u0026 green pepper \u0026 peanuts.",
+      "Name": "Kung Pao Three Delights",
+      "Number": "C19",
+      "Price": "$12.50",
+      "Section": "Chef's Specials",
+      "Spicy": "TRUE"
+    },
+    {
+      "Description": "Combination of lobster, large shrimps, scallops, beef, crab meat w. mixed vegetable in our chef’s special sauce and crispy white meat chicken \u0026 crab rangoon on the side.",
+      "Name": "Seven Stars Around the Moon",
+      "Number": "C20",
+      "Price": "$19.95",
+      "Section": "Chef's Specials",
+      "Spicy": "FALSE"
+    },
+    {
+      "Description": "Fried crispy beef in spicy sauce.",
+      "Name": "Hunan Crispy Beef",
+      "Number": "C21",
+      "Price": "$12.95",
+      "Section": "Chef's Specials",
+      "Spicy": "TRUE"
+    },
+    {
+      "Name": "Wok Su Duck",
+      "Number": "C22",
+      "Price": "$13.50",
+      "Section": "Chef's Specials",
+      "Spicy": "FALSE"
+    },
+    {
+      "Description": "Fried crispy duck ,shrimp, roast pork, scallop with mixed vegetables.",
+      "Name": "House Special Duck",
+      "Number": "C23",
+      "Price": "$15.95",
+      "Section": "Chef's Specials",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Vegetable Delight",
+      "Number": "L1",
+      "Price": "$8.25",
+      "Section": "Lunch Special",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Brocolli in Garlic Sauce",
+      "Number": "L2",
+      "Price": "$8.25",
+      "Section": "Lunch Special",
+      "Spicy": "TRUE"
+    },
+    {
+      "Name": "Kung Pao Tofu",
+      "Number": "L3",
+      "Price": "$8.25",
+      "Section": "Lunch Special",
+      "Spicy": "TRUE"
+    },
+    {
+      "Name": "Lo Mein with Chicken, Beef, Pork, or Shrimp",
+      "Number": "L4",
+      "Price": "$8.50",
+      "Section": "Lunch Special",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Chow Mein with Chicken or Shrimp",
+      "Number": "L5",
+      "Price": "$8.50",
+      "Section": "Lunch Special",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Sweet \u0026 Sour Chicken",
+      "Number": "L6",
+      "Price": "$8.50",
+      "Section": "Lunch Special",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Chicken with Cashew Nuts",
+      "Number": "L7",
+      "Price": "$8.50",
+      "Section": "Lunch Special",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Kung Pao Chicken with Peanuts",
+      "Number": "L8",
+      "Price": "$8.50",
+      "Section": "Lunch Special",
+      "Spicy": "TRUE"
+    },
+    {
+      "Name": "Chicken with Broccoli",
+      "Number": "L9",
+      "Price": "$8.50",
+      "Section": "Lunch Special",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Moo Goo Gai Pan",
+      "Number": "L10",
+      "Price": "$8.50",
+      "Section": "Lunch Special",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Curry Chicken with Onion",
+      "Number": "L11",
+      "Price": "$8.50",
+      "Section": "Lunch Special",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Chicken with Black Bean Sauce",
+      "Number": "L12",
+      "Price": "$8.50",
+      "Section": "Lunch Special",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Chicken with Mushroom",
+      "Number": "L13",
+      "Price": "$8.50",
+      "Section": "Lunch Special",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Chicken with Mixed Vegetables",
+      "Number": "L14",
+      "Price": "$8.50",
+      "Section": "Lunch Special",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Chicken with Hot Spicy Sesame Sauce",
+      "Number": "L15",
+      "Price": "$8.50",
+      "Section": "Lunch Special",
+      "Spicy": "TRUE"
+    },
+    {
+      "Name": "General Tso's Chicken",
+      "Number": "L16",
+      "Price": "$9.25",
+      "Section": "Lunch Special",
+      "Spicy": "TRUE"
+    },
+    {
+      "Name": "Sesame Chicken",
+      "Number": "L17",
+      "Price": "$9.25",
+      "Section": "Lunch Special",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Orange Chicken",
+      "Number": "L18",
+      "Price": "$9.25",
+      "Section": "Lunch Special",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Beef with Broccoli",
+      "Number": "L19",
+      "Price": "$9.25",
+      "Section": "Lunch Special",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Pepper Steak with Onion",
+      "Number": "L20",
+      "Price": "$9.25",
+      "Section": "Lunch Special",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Beef with Mixed Vegetables",
+      "Number": "L21",
+      "Price": "$9.25",
+      "Section": "Lunch Special",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Shredded Spicy Beef",
+      "Number": "L22",
+      "Price": "$9.25",
+      "Section": "Lunch Special",
+      "Spicy": "TRUE"
+    },
+    {
+      "Name": "Chicken or Beef with Pea Pods",
+      "Number": "L23",
+      "Price": "$9.50",
+      "Section": "Lunch Special",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Kung Pao Shrimp with Peanuts",
+      "Number": "L24",
+      "Price": "$9.50",
+      "Section": "Lunch Special",
+      "Spicy": "TRUE"
+    },
+    {
+      "Name": "Shrimp with Seasonal Vegetables",
+      "Number": "L25",
+      "Price": "$9.50",
+      "Section": "Lunch Special",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Shrimp with Lobster Sauce",
+      "Number": "L26",
+      "Price": "$9.50",
+      "Section": "Lunch Special",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Shrimp with Black Bean Sauce",
+      "Number": "L27",
+      "Price": "$9.50",
+      "Section": "Lunch Special",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Chicken or Beef or Shrimp in Garlic Sauce",
+      "Number": "L28",
+      "Price": "$9.50",
+      "Section": "Lunch Special",
+      "Spicy": "TRUE"
+    },
+    {
+      "Name": "Triple Delight",
+      "Number": "L29",
+      "Price": "$9.50",
+      "Section": "Lunch Special",
+      "Spicy": "FALSE"
+    },
+    {
+      "Name": "Pu Pu Platter for 1",
+      "Number": "L30",
+      "Price": "$11.95",
+      "Section": "Lunch Appetizers Combo",
+      "Spicy": "FALSE"
+    },
+    {
+      "Description": "Choice any 2 of the following: Egg Roll, Chicken Finger, Chicken Teriyaki, Boneless Spare Ribs, Crab Rangoon, Chicken Wing, Spring Roll",
+      "Name": "Choose 2 Appetizers",
+      "Number": "L31",
+      "Price": "$8.75",
+      "Section": "Lunch Appetizers Combo",
+      "Spicy": "FALSE"
+    },
+    {
+      "Description": "Choice any 4 of the following: Egg Roll, Chicken Finger, Chicken Teriyaki, Boneless Spare Ribs, Crab Rangoon, Chicken Wing, Spring Roll",
+      "Name": "Choose 4 Appetizers",
+      "Number": "L32",
+      "Price": "$9.95",
+      "Section": "Lunch Appetizers Combo",
+      "Spicy": "FALSE"
+    }
+  ]
+}
